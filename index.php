@@ -596,7 +596,7 @@ margin-footer:0;
             </tr>
         </table>
 
-        <div class="radius-box-wrap" style="background: #FCFDFE;">
+        <div class="radius-box-wrap" style="background: #FCFDFE;border-radius: 10px;border: 1px solid #E5ECF0;">
             <div class="radius-box">
                 <table class="page7-tabl2">
                     <tr class="row1" style="padding-bottom:21px;">

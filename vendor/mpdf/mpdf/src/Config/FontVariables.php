@@ -289,23 +289,28 @@ class FontVariables
 				"gilroy" => [
 					'R' => "GilroyRegular.ttf",
 					'B' => "Gilroy-Bold.ttf",
+					"GilroyRegular.ttf",
 					'useOTL' => 0xFF,
 				],
-				"gilroyM" => [
+				"gilroy-medium" => [
 					'R' => "Gilroy-Medium.ttf",
 					'useOTL' => 0xFF,
 				],
-				"gilroySemibold" => [
+				"gilroy-semibold" => [
 					'R' => "Gilroy-Semibold.ttf",
 					'useOTL' => 0xFF,
 				],
-				"gilroyExtrabold" => [
+				"gilroy-extrabold" => [
 					'R' => "Gilroy-Extrabold.ttf",
 					'useOTL' => 0xFF,
 				],
 				"montserrat" => [
 					'R' => "Montserrat-Medium.ttf",
 					'B' => "MontserratBold.ttf",
+					'useOTL' => 0xFF,
+				],
+				"montserrat-semibold" => [
+					'R' => "Montserrat-SemiBold.ttf",
 					'useOTL' => 0xFF,
 				],
 				

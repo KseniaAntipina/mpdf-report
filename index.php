@@ -316,7 +316,7 @@ margin-footer:0;
     line-height:150%;
 }
 
-.page9, .page10, .page11 , .page15, .page19, .page20 {
+.page9, .page10, .page11 , .page15, .page19, .page20, .page24 , .page25 , .page29 , .page30{
     background-position: right center;
     background-image-resize: 5;
     height: 100%;
@@ -345,6 +345,22 @@ margin-footer:0;
 
 .page20 {
     background: transparent url(\'./assets/page20.png\') no-repeat;
+}
+
+.page24 {
+    background: transparent url(\'./assets/page24.png\') no-repeat;
+}
+
+.page25 {
+    background: transparent url(\'./assets/page25.png\') no-repeat;
+}
+
+.page29 {
+    background: transparent url(\'./assets/page29.png\') no-repeat;
+}
+
+.page30 {
+    background: transparent url(\'./assets/page30.png\') no-repeat;
 }
 
 .page9 p , .page10 p , .page11 p {
@@ -422,9 +438,7 @@ margin-footer:0;
     font-size: 18px;
 }
 
-
-
-.report-box .table1   {
+.report-box .table1   , .report-box .table12 {
     background-position: left center;
     background-image-resize: 0;
     width: 320px;
@@ -435,17 +449,22 @@ margin-footer:0;
     box-sizing: border-box;
 }
 
-.page16 .table1 {
+.page16 .table1, .page21 .table1 , .page26 .table1 {
     background: transparent url(\'./assets/page16-graybox.svg\') no-repeat;
     height: 174px;
 }
 
-.page17 .table1 , .page18 .table1{
+.page17 .table1 , .page18 .table1 , .page22 .table1 , .page27 .table1 , .page28 .table1 {
     background: transparent url(\'./assets/page17-graybox1.svg\') no-repeat;
     height: 158px;
 }
 
-.report-box .table2 {
+.page23 .table1 , .page28 .table12 {
+    background: transparent url(\'./assets/page23-graybox1.svg\') no-repeat;
+    height: 217px;
+}
+
+.report-box .table2 , .report-box .table22 {
     background-position: center center;
     background-image-resize: 0;
     width: 584px;
@@ -459,14 +478,19 @@ margin-footer:0;
     color: #555A5C;
 }
 
-.page16 .table2 {
+.page16 .table2, .page21 .table2 , .page26 .table2 {
     background: transparent url(\'./assets/page16-graybox2.svg\') no-repeat;
     height: 174px;
 }
 
-.page17 .table2, .page18 .table2 {
+.page17 .table2, .page18 .table2 , .page22 .table2  , .page27 .table2 , .page28 .table2{
     background: transparent url(\'./assets/page17-graybox2.svg\') no-repeat;
     height: 158px;
+}
+
+.page23 .table2 , .page28 .table22 {
+    background: transparent url(\'./assets/page23-graybox2.svg\') no-repeat;
+    height: 217px;
 }
 
 .report-box .table1 .desc .gene {
@@ -475,6 +499,7 @@ margin-footer:0;
     background-position: right center;
     padding-right:10px;
     height: 32px;
+    
 }
 
 .report-box .table1 .desc .gene1 {
@@ -488,20 +513,20 @@ margin-footer:0;
     color: #fff;
 }
 
-.page16 .table1 .desc .gene3 {
+.page16 .table1 .desc .gene3, .page21 .table1 .desc .gene3 , .page26 .table1 .desc .gene3 {
     background: transparent url(\'./assets/page16-blue180.svg\') no-repeat;
     width: 180px;
     color: #fff;
 }
 
-.page17 .table1 .desc .gene3 {
+.page17 .table1 .desc .gene3 , .page22 .table1 .desc .gene3 , .page28 .table12 .desc .gene3{
     background: transparent url(\'./assets/page17-blue173.svg\') no-repeat;
     width: 180px;
     color: #fff;
+    font-size:14px;
 }
 
-
-.page17 .table1 .desc .gene32 {
+.page17 .table1 .desc .gene32 , .page22 .table1 .desc .gene32 , .page27 .table1 .desc .gene32 , .page28 .table1 .desc .gene32 {
     background: transparent url(\'./assets/page17-blue190.svg\') no-repeat;
     width: 180px;
     color: #fff;
@@ -513,7 +538,7 @@ margin-footer:0;
     color: #fff;
 }
 
-.page18 .table1 .desc .gene32 {
+.page18 .table1 .desc .gene32 , .page23 .table1 .desc .gene32{
     background: transparent url(\'./assets/page17-blue173.svg\') no-repeat;
     width: 180px;
     color: #fff;
@@ -563,9 +588,7 @@ margin-footer:0;
     font-family: gilroy-semibold;
 }
 
-
 </style>
-
 
 <sethtmlpagefooter name="footerCover" value="on" />
     <div class="cover">
@@ -1645,20 +1668,640 @@ margin-footer:0;
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
 
+<div class="report-box page page21" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page21__content content-text">
+        <table height="175" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1" height="175" width="315" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:15px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40">Ген APOA2 </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация G;G
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene3" height="40" style="padding-right:20px">Полиморфизм rs5082</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                    <table class="table2">
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                            Полиморфизм гена APOA2 (Аполипопротеин А2). Расположен на длинном плече хромосомы 1, в цитосегменте 23.3.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80">
+                            <span style="font-family:gilroy-semibold">Функция:</span> Основной белок липопротеинов высокой плотности. Полиморфизм изменяет промоторную последовательность гена APOA2, в результате чего носители экспрессируют меньше белкапродукта этого гена.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:16px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        Выраженный эффект низкожировой диеты по сравнению с носителями других генотипов полиморфизма rs5082. Рекомендовано снижение потребления насыщенных жирных кислот (животный жир, куриная кожа, жирное молоко, сливки, пальмовое/кокосовое масло). У носителей этого генотипа легко могут набирать вес, употребляя выше описанные продукты.
+        </div>
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+
+<div class="report-box page page22" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page22__content content-text">
+        <table height="158" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1" height="158" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40">Ген FABP2</td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация T;C
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene32" height="40" style="padding-right:15px;" >Полиморфизм rs1799883 </td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                <table class="table2" height="158" >
+                <tr>
+                    <td style="padding-bottom:5px;">
+                        Полиморфизм гена FABP2 (Белок, связывающий жирные кислоты в кишечнике, 2). Находится на длинном плече хромосомы 10, в цитосегменте 25.2
+                    </td>
+                </tr>
+                <tr>
+                    <td height="80px">
+                        <span style="font-family:gilroy-semibold">Функция:</span> Переносчик жирных кислот в тонком кишечнике. Контролирует эффективность усвоения жиров, поступающих с пищей.
+                    </td>
+                </tr>
+            </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;margin-bottom:16px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        Обнаруженный генотип связан со средней эффективностью низкожировых диет.  Он умеренно повышает чувствительность к насыщенным жирам. Более активное всасывание жиров в кишечнике по сравнению с распространенным генотипом C/C. Рекомендовано снижение потребления жирной пищи, особенно содержащий животные жиры. Данный генотип ассоциирован с повышенной чувствительностью к насыщенным жирным кислотам.
+        </div>
+
+
+        
+        <table  style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40" style="padding-right:15px;">Ген FTO</td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация T;A
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene32" height="40" style="padding-right:15px;">Полиморфизм rs9939609</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                    <table class="table2">
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                            Полиморфизм rs9939609 гена FTO расположен на коротком плече хромосомы 3, в цитогенетическом локусе 25.2 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80px">
+                            <span style="font-family:gilroy-semibold">Функция:</span> Данный генетический локус связан с ожирением за счет нарушения пищевого поведения  избыточным потреблением калорий.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        Для носителей данного генотипа, выше эффективность низкожировых диет. Данный генотип ассоциирован с самым большим индексом массы тела, в сравнении с другими генотипами, но также и самой эффективной потерей веса при соблюдении средиземноморской диеты, принцип которой состоит в ограничении жирного мяса, потреблении большого количества морепродуктов, овощей и фруктов.
+        </div>
+
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="report-box page page23" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page23__content content-text">
+        <table height="217" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1" height="217" width="315" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" height="217">
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:15px;padding-top:25px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;" height="217">
+                        <table width="195" style="padding-top:23px;">
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene32" height="40" style="padding-right:15px;">Гаплотипы гена APOE </td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                    <table class="table2">
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                            Гаплотипы гена APOE - это комбинация 2-х полиморфизмов- rs429358 и rs7412, расположенных в цитосегменте 19q13.32, генотипы которых которые обычно наследуются вместе. Основными гаплотипами являются 
+                            <span style="font-family:quivira">&#8455;</span>2, <span style="font-family:quivira">&#8455;</span>3 и <span style="font-family:quivira">&#8455;</span>4, встречающиеся в европейской популяции с частотами 6.65, 78.7 и 12.07% соответственно.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80">
+                            <span style="font-family:gilroy-semibold">Функция:</span> Гаплотипы гена APOE - это комбинация 2-х полиморфизмов- rs429358 и rs7412, расположенных в цитосегменте 19q13.32, генотипы которых которые обычно наследуются вместе. Основными гаплотипами являются <span style="font-family:quivira">&#8455;</span>2, <span style="font-family:quivira">&#8455;</span>3 и <span style="font-family:quivira">&#8455;</span>4, встречающиеся в европейской популяции с частотами 6.65, 78.7 и 12.07% соответственно.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:5px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        Обнаружен гаплотип APO-E3/E3. Частота в европейской популяции,%: 78.7761
+        </div>
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="page page24" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
+    <div class="page24__content content-text" style="width:507px; color: #555A5C;margin-bottom:150px; ">
+        <p>
+            Данный генотип не предрасполагает к более выраженному эффекту низкожировой диеты. Данный гаплотип не отличается чувствительностью к потреблению жиров, но любому человеку будет полезно снизить потребление насыщенных жирных кислот для поддержания здоровья и долголетия.
+        </p>
+        <p style="margin:0;">
+            При вашем генотипе эффективность низкожировой диеты выше общепопуляционной.  Также, выше будет эффективность низкожировой диеты для снижения уровня холестерина в крови.
+        </p>
+    </div>
+    <div class="content-text" style="width:560px;margin:0;">
+ 
+        <p class="risk-title1" style="margin:0;">Индивидуальная эффективность</p>
+        <p class="risk-title2" style="">54 баллов - выше среднего</p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 260px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
+            </p>
+        </div>
+
+        <p class="risk-title1" style="">Среднепопуляционная эффективность</p>
+        <p class="risk-title2"  style="">41 баллов</p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 170px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);margin:0;">
+            </p>
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="page page25 template1" style="page-break-before:left;">
+    <div class="page25__content content-text" style="color: #555A5C;">  
+        <table  height="200" width="610" style="margin-left:-2px;">
+            <tr>
+                <td class="item" >
+                    <img src=\'./assets/radio-red.svg\' width="16px" height="16px" style="padding-right:5px;margin-bottom:-2px;">
+
+                    <span style="color: #596363;font-size: 16px;line-height: 150%;">Низкая эффективность</span>
+
+                    <p><img src=\'./assets/risk3.svg\' style="padding-top:14px;padding-bottom:10px;" height="70"></p>
+
+                    <p style="font-family:gilroy-semibold;height:43px;margin:0;padding:0;">
+                        Эффективность низкоуглеводной<br> диеты
+                    </p>
+                </td>
+                <td width="20"></td>
+                <td >
+                    <table width="255">
+                        <tr>
+                            <td style="font-size:16px;font-family:gilroy-semibold;padding-bottom:10px;">
+                            Эффективность низкоуглеводной диеты для снижения веса
+                            
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:14px;font-family:gilroy;line-height: 150%;">
+                            Если Вы хотите сбросить лишний вес - снижение количества углеводов не правильный подход к проблеме. Геный расскажут, какая диета подойдет именно Вам
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div style="width:544px;padding-top:10px;">
+            <p>Низкоуглеводная диета заключается в ограничении количества потребляемых углеводов. К продуктам, богатым углеводами, относятся хлеб, крупы, крахмалосодержащие овощи, фрукты, а также молоко и йогурт. В низкоуглеводной диете предпочтение отдается овощам с низким содержанием крахмала, жирам и белковым продуктам. Эффективность метаболизма углеводов контролируется в том числе геном адренергического рецептора 2 (ADRB2). Полиморфные вариации гена снижают активность белка ADRB2. Чем ниже активность белка ADRB2, тем менее эффективна низкоуглеводная диета в борьбе с лишним весом. Генетические факторы риска сахарного диабета 2 типа, при их выявлении диктуют необходимость ограничения «быстрых» углеводов, продуктов с высоким гликемическим индексом. 
+            </p>
+        </div>
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="report-box page page26" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page26__content content-text">
+        <table height="175" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1" height="175" width="315" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:15px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40">Ген ADRB2</td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация C;C
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene3" height="40" style="padding-right:10px">Полиморфизм rs1042714</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                    <table class="table2">
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                            Полиморфизм  гена ADRB2 (Бета-адренорецептор 2 типа). Расположен на длинном плече хромосомы 5 в цитосегменте 32. 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80">
+                            <span style="font-family:gilroy-semibold">Функция:</span> Присутствует на мембранах клеток гладкой мускулатуры и в жировых клетках. Участвует в мобилизации жира из жировых клеток в ответ на гормоны (адреналин, норадреналин), стимулируют гликогенолиз в печени и выброс глюкозы в кровь для восполнения энергетических потребностей работы мышц.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:16px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+            Носители данного генотипа обычно имеют более выраженный эффект низкоуглеводной диеты. Рекомендовано придерживаться низкоуглеводной диеты, особенно следует ограничить потребление простых сахаров, что связано с более быстрым набором веса, а также увеличением риска развития диабета.
+        </div>
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="report-box page page27" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page27__content content-text">
+        <table height="158" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1" height="158" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40">Ген PPARG </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация C;G
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene32" height="40" style="padding-right:15px;"> Полиморфизм rs1801282</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                <table class="table2" height="158" >
+                <tr>
+                    <td style="padding-bottom:5px;">
+                    Полиморфизм гена PPARG (Рецептор активатора пероксисом G). Расположен на коротком плече хромосомы 3 в цитогенетическом сегменте 25.2 
+                    </td>
+                </tr>
+                <tr>
+                    <td height="80px">
+                        <span style="font-family:gilroy-semibold">Функция:</span> Регулирует накопление жирных кислот и метаболизм глюкозы.
+                    </td>
+                </tr>
+            </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;margin-bottom:53px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        Более выраженный эффект низкоуглеводной диеты.
+        </div>
+        
+        <table  style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40" style="padding-right:15px;">Ген TCF7L2 </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация C;C
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene32" height="40" style="padding-right:15px;">Полиморфизм rs7903146 </td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                    <table class="table2">
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                            Полиморфизм гена TCF7L2 (фактор транскрипции 7). Расположен на длинном плече хромосомы 10 в сегменте 25.2
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80px">
+                            <span style="font-family:gilroy-semibold">Функция:</span> Регулирует метаболизм глюкозы в тканях поджелудочной железы и печени.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        Обнаруженный генотип не изменяет эффективность низкоуглеводной диеты. Рекомендовано придерживаться правильного размеренного питания с ограничением потребления простых сахаров.
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="report-box page page28" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page28__content content-text">
+        <table height="158" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1" height="158" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40">Ген TCF7L2</td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;"> Ваша мутация G;G
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene32" height="40" style="padding-right:15px;">Полиморфизм rs12255372</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                <table class="table2" height="158" >
+                <tr>
+                    <td style="padding-bottom:5px;">
+                    Полиморфизм гена TCF7L2 (фактор транскрипции 7). Находится на длинном плече хромосомы 10, в цитогенентическом сегменте 25.2 
+                    </td>
+                </tr>
+                <tr>
+                    <td height="80px">
+                        <span style="font-family:gilroy-semibold">Функция:</span> Регулирует метаболизм глюкозы в тканях поджелудочной железы и печени.
+                    </td>
+                </tr>
+            </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;margin-bottom:5px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        Обнаруженный генотип не изменяет эффективность низкоуглеводной диеты. Хотя при данном генотипе и не описана высокая эффективность низкоуглеводной диеты, снижение потребления пищи, богатой простыми углеводами будет полезно для поддержания хорошего самочувствия и профилактики различных заболеваний, таких как диабет и сердечнососудистые заболевания.
+        </div>
+        
+        <table height="213" style="border-collapse:collapse;margin-bottom:0px;padding-bottom:0;" width="940px">
+            <tr>
+                <td width="314">
+                    <table height="220" class="table12" style="margin-left:-2px;margin-bottom:0;padding-bottom:0;padding-top:25px;" >
+                    <tr>
+                        <td class="img" height="217" width="100">
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;padding-top:10px;">
+                        <table width="160" height="217">
+                            <tr>
+                                <td class="gene gene3" height="40" style="padding: 0 20px 5px 0;">Гаплотипы гена APOE</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="12"></td>
+                <td>
+                    <table height="213" class="table22" >
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                            Гаплотипы гена APOE - это комбинация 2-х полиморфизмов- rs429358 и rs7412, расположенных в цитосегменте 19q13.32, генотипы которых которые обычно наследуются вместе. Основными гаплотипами являются <span style="font-family:quivira">&#8455;</span>2, <span style="font-family:quivira">&#8455;</span>3 и <span style="font-family:quivira">&#8455;</span>4, встречающиеся в европейской популяции с частотами 6.65, 78.7 и 12.07% соответственно.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80px">
+                            <span style="font-family:gilroy-semibold">Функция:</span> Ген ApoE кодирует белок аполипопротеин Е (АпоЕ). Белок АпоЕ - фермент, играющий важную роль в метаболизме липидов. Он связан с предрасположенностью к гиперлипопротеинемии (ГЛП), атеросклерозу, гиперхолестеринемии, болезни Альцгеймера и пр.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="padding:0;margin:0;font-family:gilroy;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        <p style="margin: 5px 0 5px 0">Обнаружен гаплотип APO-E3/E3. Частота в европейской популяции,%: 78.7761 <br></p>
+        <p style="margin:0;">Нейтральный вариант.</p>
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="page page29" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
+    <div class="page29__content content-text" style="width:558px; color: #555A5C;margin-bottom:150px; ">
+        <p style="margin:0;">
+            При рационе, содержащем большое количество углеводов, Вы быстрее набираете вес, чем люди с другими генотипами. При появлении необходимости снизить массу тела, эффективность низкоуглеводной диеты повышенная. Для снижения массы тела рекомендовано сократить калории за счет ограничения потребление продуктов, богатых «быстрыми углеводами» (гликемический индекс выше 70). Организм взрослого человека усваивает не больше 4-6 г сахара в час, избыток будет запасен в виде жировых отложений. Дефицит магния усугубляет нарушение углеводного обмена, обсудите с Вашим врачом необходимость дополнительного приема препаратов магния.
+        </p>
+    </div>
+    <div class="content-text" style="width:560px;margin:0;">
+ 
+        <p class="risk-title1" style="margin:0;">Индивидуальный риск</p>
+        <p class="risk-title2" style="">69 баллов - выше среднего</p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 350px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
+            </p>
+        </div>
+
+        <p class="risk-title1" style="">Среднепопуляционный риск
+        </p>
+        <p class="risk-title2"  style="">49 баллов</p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 250px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);margin:0;">
+            </p>
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="page page30 template1" style="page-break-before:left;">
+    <div class="page30__content content-text" style="color: #555A5C;">  
+        <table  height="200" width="610" style="margin-left:-2px;">
+            <tr>
+                <td class="item" >
+                    <img src=\'./assets/radio-yellow.svg\' width="16px" height="16px" style="padding-right:5px;margin-bottom:-2px;">
+
+                    <span style="color: #596363;font-size: 16px;line-height: 150%;">Средняя потребность</span>
+
+                    <p><img src=\'./assets/risk4.svg\' style="padding-top:14px;padding-bottom:10px;" height="70"></p>
+
+                    <p style="font-family:gilroy-semibold;height:43px;margin:0;padding:0;">
+                        Ограничение насыщенных<br> жирных кислот
+                    </p>
+                </td>
+                <td width="20"></td>
+                <td >
+                    <table width="255">
+                        <tr>
+                            <td style="font-size:16px;font-family:gilroy-semibold;padding-bottom:10px;">
+                            Необходимость ограничивать потребление насыщенных жирных кислот                           
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:14px;font-family:gilroy;line-height: 150%;padding-bottom:20px;">
+                            Насыщенные жирные кислоты участвуют в терморегуляции организма, улучшают состояние волос и кожи
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div style="width:544px;padding-top:10px;">
+            <p>Насыщенные жиры содержатся в животном масле, входят в состав мясных, молочных и некоторых растительных продуктов питания. С химической точки зрения, насыщенные жирные кислоты (НЖК) представляют собой вещества с одинарными связями атомов углерода. Особенным свойством таких жиров является то, что они не теряют свою твёрдую форму при комнатной температуре. НЖК наполняют организм человека энергией и активно участвуют в процессе строения клеток.
+            </p>
+            <p>
+            Потребление избыточного количества насыщенных жиров является фактором риска сердечно-сосудистых заболеваний, а у некоторых людей влияет на появление избыточной массы тела. НЖК имеют свойство откладываться в организме «про запас» в виде жировых отложений. Во время физической нагрузки под действием гормонов (адреналина и норадреналина, глюкагона и т.д.). НЖК выделяются в кровоток, высвобождая энергию для организма.            
+            </p>
+        </div>
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
 
 ';
 
 
 
 $mpdf = new Mpdf(['mode' => 'UTF-8', 'format' => [297, 210]]);
- 
-
-$mpdf->DefHTMLFooterByName(
-    'colontWhite',
-    '<div style="text-align: right; font-weight: bold; font-size: 8pt; 
-    font-style: itapc;">Chapter 2 Footer</div>'
-  );
-  $mpdf->SetHTMLHeaderByName('colontWhite');
 
 $mpdf->WriteHTML($html);
 $mpdf->Output();

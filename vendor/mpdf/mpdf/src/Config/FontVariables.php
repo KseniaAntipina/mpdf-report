@@ -304,9 +304,12 @@ class FontVariables
 					'R' => "Gilroy-Extrabold.ttf",
 					'useOTL' => 0xFF,
 				],
-				"montserrat" => [
+				"montserrat-bold" => [
+					'R' => "Montserrat-Bold.ttf",
+					'useOTL' => 0xFF,
+				],
+				"montserrat-medium" => [
 					'R' => "Montserrat-Medium.ttf",
-					'B' => "MontserratBold.ttf",
 					'useOTL' => 0xFF,
 				],
 				"montserrat-semibold" => [

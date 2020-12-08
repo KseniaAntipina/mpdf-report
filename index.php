@@ -8,7 +8,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 $html = '
 
 <htmlpagefooter name="footerCover">
-    <table width="100%" cellpadding="0" height="60px" style="color:#fff;padding: 20px 0 26px 53px;vertical-apgn:midle;
+    <table width="100%" cellpadding="0" height="60px" style="color:#fff;padding: 20px 0 26px 53px;vertical-align:midle;
     border-top: 0.5px sopd #fff;">
         <tr>
             <td><img src="./assets/logoWhite.svg" style="max-width:102px;height: 52px;"></td>
@@ -21,7 +21,7 @@ $html = '
 </htmlpagefooter>
 
 <htmlpagefooter name="MyFooter1">
-    <table width="100%" height="104px" style="color:#fff;padding: 20px 0 26px 53px;vertical-apgn:midle;">
+    <table width="100%" height="104px" style="color:#fff;padding: 20px 0 26px 53px;vertical-align:midle;">
         <tr>
             <td><img src="./assets/logoWhite.svg" style="max-width:102px;height: 52px;"></td>
             <td style="font-family:gilroy; font-weight: 400; font-size: 11px; line-height: 16px;padding-left:25px;"> 
@@ -33,7 +33,7 @@ $html = '
 </htmlpagefooter>
 
 <htmlpagefooter name="MyFooter2">
-    <table width="100%" style="padding: 20px 0 26px 53px;vertical-apgn:midle;">
+    <table width="100%" style="padding: 20px 0 26px 53px;vertical-align:midle;">
     <tr>
     <td><img src="./assets/logo.svg" style="max-width:102px;height: 52px;"></td>
     <td style="font-family:gilroy; font-weight: 400; font-size: 11px; line-height: 16px; color:#AEB8BE;padding-left:25px; "> 
@@ -45,7 +45,7 @@ $html = '
 </htmlpagefooter>
 
 <htmlpagefooter name="MyFooter2-gray">
-    <table width="100%" style="padding: 20px 0 26px 53px;vertical-apgn:midle;background: #F7F9FC;">
+    <table width="100%" style="padding: 20px 0 26px 53px;vertical-align:midle;background: #F7F9FC;">
     <tr>
     <td><img src="./assets/logo.svg" style="max-width:102px;height: 52px;"></td>
     <td style="font-family:gilroy; font-weight: 400; font-size: 11px; line-height: 16px; color:#AEB8BE;padding-left:25px; "> 
@@ -57,7 +57,7 @@ $html = '
 </htmlpagefooter>
 
 <htmlpagefooter name="MyFooter2-gray-border">
-    <table width="100%" style="padding: 20px 0 26px 53px;vertical-apgn:midle;border: 0.5px solid #D1D1D1;z-index:100;">
+    <table width="100%" style="padding: 20px 0 26px 53px;vertical-align:midle;border: 0.5px solid #D1D1D1;z-index:100;">
     <tr>
     <td><img src="./assets/logo.svg" style="max-width:102px;height: 52px;"></td>
     <td style="font-family:gilroy; font-weight: 400; font-size: 11px; line-height: 16px; color:#AEB8BE;padding-left:25px; "> 
@@ -96,7 +96,7 @@ margin-footer:0;
     text-align:center;
 }
 .cover__titles h1 {
-    font-family: montserrat;
+    font-family: montserrat-medium;
     font-weight: 500;
     font-size: 28px;
     line-height: 42px;
@@ -105,13 +105,13 @@ margin-footer:0;
     padding-bottom:0;
 }
 .cover .subtitle {
-    font-family: montserrat; 
+    font-family: montserrat-medium; 
     font-size: 18px;
     line-height: 27px;
     font-weight: 500;
 }
 .cover .subtitle2 {
-    font-family: montserrat; 
+    font-family: montserrat-medium; 
     font-size: 24px;
     line-height: 36px;
     font-weight: 500;
@@ -146,10 +146,10 @@ margin-footer:0;
 }
 
 .page h2 {
-    font-family: montserrat;
+    font-family: montserrat-bold;
+    font-weight: normal;
     font-size: 24px;
     line-height: 36px;
-    font-weight: bold;
     margin-top:0;
 }
 
@@ -183,9 +183,10 @@ margin-footer:0;
 
 .effect-item {
     text-align:center;
-    font-family: montserrat;
+    font-family:montserrat-semibold;
     font-size: 12px;
     color:#555A5C;
+    line-height: 150%;
 }
 
 .page.page5 {
@@ -200,6 +201,22 @@ margin-footer:0;
 
 .page6 p {
     margin: 0;
+}
+
+.page6 .content-text .risk-title1 {
+    margin-bottom:5px;
+    font-size:14px;
+    color: #555A5C;
+    padding-top:0;
+    font-family: gilroy;
+}
+
+
+.page6 .content-text .risk-title2 {
+    margin: 5px 0 -8px 0 ;
+    font-family:gilroy-semibold;
+    font-size:14px;
+    color: #555A5C;
 }
 
 .radius-box {
@@ -239,7 +256,7 @@ margin-footer:0;
     line-height: 24px;
     margin:0;
     padding:0;
-    
+    font-family: gilroy-medium;
 }
 
 .blue-td1 {
@@ -264,18 +281,24 @@ margin-footer:0;
     width: 100px;
     text-align:left;
     padding-left: 30px;
+    font-family: gilroy-semibold;
+    color: #555A5C;
 }
 
 .rowValue td.col2 {
     width: 150px;
     text-align:left;
     padding-left: 50px;
+    font-family: gilroy-semibold;
+    color: #555A5C;
 }
 
 .rowValue td.col3 {
     width: 290px;
     text-align:left;
     padding-left:130px;
+    font-family: gilroy-semibold;
+    color: #555A5C;
 }
 
 .page8-risk tr td.gray {
@@ -293,7 +316,7 @@ margin-footer:0;
     line-height:150%;
 }
 
-.page9, .page10, .page11 {
+.page9, .page10, .page11 , .page15, .page19, .page20 {
     background-position: right center;
     background-image-resize: 5;
     height: 100%;
@@ -310,6 +333,18 @@ margin-footer:0;
 
 .page11 {
     background: transparent url(\'./assets/page11.png\') no-repeat;
+}
+
+.page15 {
+    background: transparent url(\'./assets/page15.png\') no-repeat;
+}
+
+.page19 {
+    background: transparent url(\'./assets/page19.png\') no-repeat;
+}
+
+.page20 {
+    background: transparent url(\'./assets/page20.png\') no-repeat;
 }
 
 .page9 p , .page10 p , .page11 p {
@@ -388,7 +423,149 @@ margin-footer:0;
 }
 
 
+
+.report-box .table1   {
+    background-position: left center;
+    background-image-resize: 0;
+    width: 320px;
+    padding: 18px 17px 30px 19px;
+    vertical-align:top;
+    margin: 0;
+    font-family: gilroy-medium;
+    box-sizing: border-box;
+}
+
+.page16 .table1 {
+    background: transparent url(\'./assets/page16-graybox.svg\') no-repeat;
+    height: 174px;
+}
+
+.page17 .table1 , .page18 .table1{
+    background: transparent url(\'./assets/page17-graybox1.svg\') no-repeat;
+    height: 158px;
+}
+
+.report-box .table2 {
+    background-position: center center;
+    background-image-resize: 0;
+    width: 584px;
+    padding: 23px 30px 20px 29px;
+    vertical-align:top;
+    margin: 0;
+    font-family: gilroy;
+    font-size: 13px;
+    line-height: 150%;
+    box-sizing: border-box;
+    color: #555A5C;
+}
+
+.page16 .table2 {
+    background: transparent url(\'./assets/page16-graybox2.svg\') no-repeat;
+    height: 174px;
+}
+
+.page17 .table2, .page18 .table2 {
+    background: transparent url(\'./assets/page17-graybox2.svg\') no-repeat;
+    height: 158px;
+}
+
+.report-box .table1 .desc .gene {
+    font-size:14px;
+    color: #fff;
+    background-position: right center;
+    padding-right:10px;
+    height: 32px;
+}
+
+.report-box .table1 .desc .gene1 {
+    background: transparent url(\'./assets/page16-blue95.svg\') no-repeat;
+    width: 96px;
+}
+
+.report-box .table1 .desc .gene2 {
+    background: transparent url(\'./assets/page16-blue159.svg\') no-repeat;
+    width: 160px;
+    color: #fff;
+}
+
+.page16 .table1 .desc .gene3 {
+    background: transparent url(\'./assets/page16-blue180.svg\') no-repeat;
+    width: 180px;
+    color: #fff;
+}
+
+.page17 .table1 .desc .gene3 {
+    background: transparent url(\'./assets/page17-blue173.svg\') no-repeat;
+    width: 180px;
+    color: #fff;
+}
+
+
+.page17 .table1 .desc .gene32 {
+    background: transparent url(\'./assets/page17-blue190.svg\') no-repeat;
+    width: 180px;
+    color: #fff;
+}
+
+.page18 .table1 .desc .gene31 {
+    background: transparent url(\'./assets/page16-blue180.svg\') no-repeat;
+    width: 180px;
+    color: #fff;
+}
+
+.page18 .table1 .desc .gene32 {
+    background: transparent url(\'./assets/page17-blue173.svg\') no-repeat;
+    width: 180px;
+    color: #fff;
+}
+
+.content-text .risk-title1 {
+    margin-bottom:5px;
+    font-family: gilroy-semibold;
+    font-size:14px;
+    color: #555A5C;
+    padding-top:0;
+}
+
+.content-text .risk-title2 {
+    margin: 5px 0 0 0 ;
+    font-family:gilroy-medium;
+    font-size:14px;
+    color: #555A5C;
+}
+
+.template1 table td.item {
+    background: transparent url(\'./assets/page15-graybox.svg\') no-repeat;
+    background-position: left center;
+    background-image-resize: 0;
+    width: 320px;
+    height: 197px;
+    padding: 0 0 0 23px;
+    font-family: gilroy;
+}
+
+.template1 table {
+    font-size: 16px;
+    line-height: 24px;
+    color: #555A5C;
+}
+
+.page7 table tr td.left-title {
+    padding-right:80px;
+    padding-bottom:10px;
+    color: #555A5C;
+    font-family:gilroy-medium;
+}
+
+.page7 table tr td.content {
+    padding-bottom:10px;
+    color: #555A5C;
+    font-family: gilroy-semibold;
+}
+
+
 </style>
+
 
 <sethtmlpagefooter name="footerCover" value="on" />
     <div class="cover">
@@ -400,7 +577,6 @@ margin-footer:0;
         </div>
     </div>
 </div> 
-
 
 
 <div class="page page2" style="page-break-before:left;">
@@ -433,25 +609,25 @@ margin-footer:0;
     <h2 class="gray"> На чем основывается данное исследование</h2>
     <div class="page4__content content-text" style="width:100%">
         <p>
-            <b>Представленный отчет состоит из нескольких частей.</b>
+            <span style="font-family:gilroy-semibold;"> Представленный отчет состоит из нескольких частей. </span>
         </p>
         <p>
-            <b>Первая часть отчета</b> представляет данные лабораторных исследований, выполненных в лицензированной клинической лаборатории на одобренных для клинических тестов оборудовании и реактивов. Эти данные могут использоваться врачом независимо от остальной части отчета для оценки генетических рисков в отношении здоровья пациента.
+            <span style="font-family:gilroy;font-weight:bold;">Первая часть отчета</span> представляет данные лабораторных исследований, выполненных в лицензированной клинической лаборатории на одобренных для клинических тестов оборудовании и реактивов. Эти данные могут использоваться врачом независимо от остальной части отчета для оценки генетических рисков в отношении здоровья пациента.
         </p>
         <p>
-            <b>Вторая часть отчета</b> представляет собой обзор данных научных и клинических исследований, публикаций в научной литературе, данных полногеномных ассоциативных исследований (GWAS), международных баз данных, собственной базы данных лаборатории и других данных в отношении обнаруженных у Вас генетических вариантов.  Эта информация постоянно отслеживается, обновляется и  пополняется нашей командой врачей, научных сотрудников и биоинформатиков. Вся новейшая информация сразу попадает в нашу базу знаний и отображается в отчете. Эти данные структурированы следующим образом: 
+            <span style="font-weight:bold;">Вторая часть отчета</span> представляет собой обзор данных научных и клинических исследований, публикаций в научной литературе, данных полногеномных ассоциативных исследований (GWAS), международных баз данных, собственной базы данных лаборатории и других данных в отношении обнаруженных у Вас генетических вариантов.  Эта информация постоянно отслеживается, обновляется и  пополняется нашей командой врачей, научных сотрудников и биоинформатиков. Вся новейшая информация сразу попадает в нашу базу знаний и отображается в отчете. Эти данные структурированы следующим образом: 
         </p>
         <p>
-           <b>1.</b> Описание исследуемого полиморфизма, его локализации в геноме и его функции. 
+            <span style="font-weight:bold;">1.</span><span style="font-family:gilroy-medium"> Описание исследуемого полиморфизма, его локализации в геноме и его функции. </span>
         </p>
         <p>
-            <b>2.</b> Генотипы полиморфизма. Это включенные в исследование генетические варианты полиморфизма, их частота в европейской популяции и связь с риском возникновения многофакторных заболеваний. 
+            <span style="font-weight:bold;">2.</span><span style="font-family:gilroy-medium"> Генотипы полиморфизма.</span> Это включенные в исследование генетические варианты полиморфизма, их частота в европейской популяции и связь с риском возникновения многофакторных заболеваний. 
         </p>
         <p>
-            <b>3.</b> Описание конкретного генетического варианта для каждого полиморфизма, который был обнаружен. В описании приводятся данные о связи обнаруженного варианта с риском развития заболеваний, влияния на метаболизм и индивидуальные особенности организма, на основании имеющихся научных данных. В некоторых случаях могут содержатся рекомендации или другая информация если она признана достоверной медицинским сообществом. 
+            <span style="font-weight:bold;">3.</span><span style="font-family:gilroy-medium"> Описание конкретного генетического варианта для каждого полиморфизма, который был обнаружен.</span> В описании приводятся данные о связи обнаруженного варианта с риском развития заболеваний, влияния на метаболизм и индивидуальные особенности организма, на основании имеющихся научных данных. В некоторых случаях могут содержатся рекомендации или другая информация если она признана достоверной медицинским сообществом. 
         </p>
         <p>
-            <b>4.</b> Расчет интегративного риска. Эта часть отчета содержит информацию об интегративном (теоретически вычисленном на основании данных по всем генетическим вариантам) риске для здоровья человека. Индекс риска - это условная величина которая сравнивается с таковой в европейской популяции и показывает насколько ваши генетические риски выше или ниже среднепопуляционного риска. Для расчета среднепопуляцонного риска используются частоты генотипов из базы данных GnomAD v2.1.1
+            <span style="font-weight:bold;">4.</span><span style="font-family:gilroy-medium"> Расчет интегративного риска.</span> Эта часть отчета содержит информацию об интегративном (теоретически вычисленном на основании данных по всем генетическим вариантам) риске для здоровья человека. Индекс риска - это условная величина которая сравнивается с таковой в европейской популяции и показывает насколько ваши генетические риски выше или ниже среднепопуляционного риска. Для расчета среднепопуляцонного риска используются частоты генотипов из базы данных GnomAD v2.1.1
         </p>
         
     </div>
@@ -462,7 +638,7 @@ margin-footer:0;
 <div class="page page5" style="page-break-before:left;">
     <h2 class="gray" style="margin-bottom:70px;padding-left:53px;"> На чем основывается данное исследование</h2>
     <div class="page5__content" style="width:100%">
-        <p class="subtitle" style="text-align:center;font-family:montserrat;font-weight:600;font-size:22px;line-height:33px;color:#555A5C;margin-bottom:10px;">
+        <p class="subtitle" style="text-align:center;font-family:montserrat-semibold;font-size:22px;line-height:33px;color:#555A5C;margin-bottom:10px;">
             Как получить максимальный эффект от исследования
         </p>
         <table class="effect" style="margin:0 auto 0px auto;border-collapse:collapse;" width="990px">
@@ -509,8 +685,8 @@ margin-footer:0;
                 </td>
             </tr>
             <tr>
-                <td style="text-align:center;text-transform: uppercase;font-family: montserrat;font-size:18px;line-height: 27px;color: #555A5C;padding-bottom:15px; ">
-                    <b>долголетие, молодость, здоровье</b>
+                <td style="text-align:center;text-transform: uppercase;font-family:montserrat-bold;font-size:18px;line-height: 27px;color: #555A5C;padding-bottom:15px; ">
+                    долголетие, молодость, здоровье
                 </td>
             </tr>
         </table>
@@ -528,21 +704,21 @@ margin-footer:0;
         Для расчета интегративного риска каждому возможному генетическому варианту каждого полиморфизма на основании литературных данных и данных полногеномных ассоциативных исследований (GWAS) присвоена условная величина, связанная с вероятностью и выраженностью его влияния на такие риски. Такая величина используется для расчета отношения индивидуального риска к среднепопуляционному риску. Это дает возможность оценить, насколько индивидуальный генетический риск пациента выше или ниже среднепопуляционного.
         </p>
         <p>
-        <b>Индивидуальный интегративный риск</b> представляет собой расчет генетического риска, основанного на совокупности рисков для каждого генетического варианта полиморфизма, обнаруженного у пациента.
+        <span style="font-weight:bold;">Индивидуальный интегративный риск</span> представляет собой расчет генетического риска, основанного на совокупности рисков для каждого генетического варианта полиморфизма, обнаруженного у пациента.
         </p>
         <p>
-        <b>Среднепопуляционный интегративный риск</b> представляет собой расчет генетического риска, основанного на совокупности рисков для каждого генетического варианта полиморфизма, с учетом частоты каждого генотипа в популяции.
+        <span style="font-weight:bold;">Среднепопуляционный интегративный риск</span> представляет собой расчет генетического риска, основанного на совокупности рисков для каждого генетического варианта полиморфизма, с учетом частоты каждого генотипа в популяции.
         </p>
         <p>
-        <b>Минимальный риск</b> - теоретически возможный риск, когда имеется сочетание всех благоприятных или нейтральных генетических вариантов. </p>
+        <span style="font-weight:bold;">Минимальный риск</span> - теоретически возможный риск, когда имеется сочетание всех благоприятных или нейтральных генетических вариантов. </p>
         <p>
-        <b>Максимальный риск</b> - теоретически возможный риск, когда имеется сочетание всех неблагоприятных генетических вариантов.
+        <span style="font-weight:bold;">Максимальный риск</span> - теоретически возможный риск, когда имеется сочетание всех неблагоприятных генетических вариантов.
         </p>
     </div>
     <div class="content-text">
  
-        <p class="risk-title" style="margin-bottom:5px;">Индивидуальный риск</p>
-        <p class="risk-title" style="margin-bottom:-10px;">Высокий</p>
+        <p class="risk-title1" style="margin:0;">Индивидуальный риск</p>
+        <p class="risk-title2">Высокий</p>
 
         <div>
             <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 470px;">
@@ -550,8 +726,8 @@ margin-footer:0;
             </p>
         </div>
 
-        <p class="risk-title" style="margin-bottom:5px;padding-top:20px;">Среднепопуляционный риск</p>
-        <p class="risk-title"  style="margin-bottom:-10px;">Средний риск</p>
+        <p class="risk-title1">Среднепопуляционный риск</p>
+        <p class="risk-title2">Средний риск</p>
 
         <div>
             <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 300px;">
@@ -559,8 +735,8 @@ margin-footer:0;
             </p>
         </div>
         
-        <div style="background: #F7F9FC;border-radius:6px;color: #555A5C;">
-            <p style="padding:22px 24px 17px 23px;font-size:12px;">
+        <div style="background: #F7F9FC;border-radius:6px;color: #555A5C;padding:22px 24px 17px 23px;">
+            <p style="margin:0;font-size:12px;line-height:150%;font-family:montserrat-medium;">
             Следует знать, что рассчитанный индивидуальный генетический риск какого-либо заболевания или состояния основан только на включенных в исследование полиморфизмах. Другие полиморфизмы, другие генетические и негенетические факторы могут оказывать значимое влияние на риски заболеваний. Поэтому окончательная оценка риска вероятности какого-либо заболевания может быть сделана только врачом на основании всех имеющихся у него данных.
             </p>
         </div>
@@ -569,30 +745,29 @@ margin-footer:0;
 <sethtmlpagefooter name="MyFooter2" value="on"/>
 
 
-
 <div class="page page7" style="page-break-before:left;">
     <h2 class="gray" style="margin-bottom:27px;">Результаты лабораторного исследования</h2>
     <div class="page7__content content-text">
-        <table style="font-family:gilroy;margin-bottom:29px;">
+        <table style="margin-bottom:29px;">
             <tr>
-                <td style="padding-right:80px;padding-bottom:10px;color: #555A5C;">Наименование исследования:</td>
-                <td style="padding-bottom:10px;color: #555A5C;">Нутригенетика. Оптимальный вариант диеты для снижения веса</td>
+                <td class="left-title">Наименование исследования:</td>
+                <td class="content">Нутригенетика. Оптимальный вариант диеты для снижения веса</td>
             </tr>
             <tr>
-                <td style="padding-right:80px;padding-bottom:10px;color: #555A5C;">Заказчик:</td>
-                <td  style="padding-bottom:10px;color: #555A5C;">Иванов Иван Иванович</td>
+                <td class="left-title">Заказчик:</td>
+                <td class="content">Иванов Иван Иванович</td>
             </tr>
             <tr>
-                <td style="padding-right:80px;padding-bottom:10px;color: #555A5C;">Дата рождения</td>
-                <td style="padding-bottom:10px;color: #555A5C;">11.12.1986</td>
+                <td class="left-title">Дата рождения</td>
+                <td class="content">11.12.1986</td>
             </tr>
             <tr>
-                <td style="padding-right:80px;padding-bottom:10px;color: #555A5C;">Пол:</td>
-                <td style="padding-bottom:10px;color: #555A5C;">женский</td>
+                <td class="left-title">Пол:</td>
+                <td class="content">женский</td>
             </tr>
             <tr>
-                <td style="padding-right:80px;padding-bottom:10px;color: #555A5C;">Номер исследования:</td>
-                <td style="padding-bottom:10px;color: #555A5C;">177950</td>
+                <td class="left-title">Номер исследования:</td>
+                <td class="content">177950</td>
             </tr>
         </table>
 
@@ -688,33 +863,33 @@ margin-footer:0;
             <tr>
                 <td class="gray">
                     <img src=\'./assets/radio-red.svg\' width="12px" height="12px" style="padding-right:5px;margin-bottom:-2px;">
-                     <span style="color: #596363;">Высокий риск</span>
+                     <span style="color: #596363;font-family: gilroy;">Высокий риск</span>
                     <p><img src=\'./assets/risk1.svg\' style="padding-top:14px;padding-bottom:7px;" height="50"></p>
-                    <p style="color:#555A5C;width:150px;">Риск избыточной массы<br> тела</p>
+                    <p style="color:#555A5C;width:150px;font-family: gilroy-semibold;">Риск избыточной массы<br> тела</p>
                 </td>              
                 <td class="gray">
                     <p>
                     <img src=\'./assets/radio-red.svg\' width="12px" height="12px" style="padding-right:5px;margin-bottom:-2px;">
-                     <span style="color: #596363;">Низкая эффективность</span>
+                     <span style="color: #596363;font-family: gilroy;">Низкая эффективность</span>
                      </p>
                     <p><img src=\'./assets/risk2.svg\' style="padding-top:14px;padding-bottom:7px;" height="50"></p>
-                    <p style="color:#555A5C;width:150px;">Эффективность низкожировой<br> диеты</p>
+                    <p style="color:#555A5C;width:150px;font-family: gilroy-semibold;">Эффективность низкожировой<br> диеты</p>
                 </td>           
                <td class="gray">
                     <p>
                     <img src=\'./assets/radio-red.svg\' width="12px" height="12px" style="padding-right:5px;margin-bottom:-2px;">
-                    <span style="color: #596363;">Низкая эффективность</span>
+                    <span style="color: #596363;font-family: gilroy;">Низкая эффективность</span>
                     </p>
                     <p><img src=\'./assets/risk3.svg\' style="padding-top:14px;padding-bottom:7px;" height="50"></p>
-                    <p style="color:#555A5C;width:150px;">Эффективность низкоуглеводной диеты</p>
+                    <p style="color:#555A5C;width:150px;font-family: gilroy-semibold;">Эффективность низкоуглеводной диеты</p>
                 </td>              
                 <td class="gray">
                     <p>
                     <img src=\'./assets/radio-yellow.svg\' width="12px" height="12px" style="padding-right:5px;margin-bottom:-2px;">
-                    <span style="color: #596363;">Средняя эффективность</span>
+                    <span style="color: #596363;font-family: gilroy;">Средняя эффективность</span>
                     </p>
                     <p><img src=\'./assets/risk4.svg\' style="padding-top:14px;padding-bottom:7px;" height="50"></p>
-                    <p style="color:#555A5C;width:150px;">Ограничение насыщенных жирных кислот</p>
+                    <p style="color:#555A5C;width:150px;font-family: gilroy-semibold;">Ограничение насыщенных жирных кислот</p>
                 </td>
             </tr>
             <tr><td style="padding-top:10px;"></td></tr>
@@ -722,35 +897,35 @@ margin-footer:0;
                 <td class="gray">
                     <p>
                     <img src=\'./assets/radio-green.svg\' width="12px" height="12px" style="padding-right:5px;margin-bottom:-2px;">
-                    <span style="color: #596363;">Низкая потребность</span>
+                    <span style="color: #596363;font-family: gilroy;">Низкая потребность</span>
                     </p>
                     <p><img src=\'./assets/risk5.png\' style="padding-top:14px;padding-bottom:7px;" height="50"></p>
-                    <p style="color:#555A5C;width:150px;">Потребность<br> в разгрузочных днях</p>
+                    <p style="color:#555A5C;width:150px;font-family: gilroy-semibold;">Потребность<br> в разгрузочных днях</p>
                 </td>
                 <td  class="gray">
                     <p>
                     <img src=\'./assets/radio-red.svg\' width="12px" height="12px" style="padding-right:5px;margin-bottom:-2px;">
-                    <span style="color: #596363;">Высокая выраженность</span>
+                    <span style="color: #596363;font-family: gilroy;">Высокая выраженность</span>
                     </p>
                     <p><img src=\'./assets/risk6.svg\' style="padding-top:14px;padding-bottom:7px;" height="50"></p>
-                    <p style="color:#555A5C;width:150px;">Выраженность<br> ЙО-ЙО эффекта</p>
+                    <p style="color:#555A5C;width:150px;font-family: gilroy-semibold;">Выраженность<br> ЙО-ЙО эффекта</p>
                 </td>
                 <td  class="gray">
                     <p>
                     <img src=\'./assets/radio-green.svg\' width="12px" height="12px" style="padding-right:5px;margin-bottom:-2px;">
-                    <span style="color: #596363;">Низкая склонность</span>
+                    <span style="color: #596363;font-family: gilroy;">Низкая склонность</span>
                     </p>
                     <p><img src=\'./assets/risk7.svg\' style="padding-top:14px;padding-bottom:7px;" height="50"></p>
-                    <p style="color:#555A5C;width:150px;">Чувство насыщения и склонность к перееданию
+                    <p style="color:#555A5C;width:150px;font-family: gilroy-semibold;">Чувство насыщения и склонность к перееданию
                     </p>
                 </td>
                 <td  class="gray">
                     <p>
                     <img src=\'./assets/radio-yellow.svg\' width="12px" height="12px" style="padding-right:5px;margin-bottom:-2px;">
-                    <span style="color: #596363;">Средний риск</span>
+                    <span style="color: #596363;font-family: gilroy;">Средний риск</span>
                     </p>
                     <p><img src=\'./assets/risk8.svg\' style="padding-top:14px;padding-bottom:7px;" height="50"></p>
-                    <p style="color:#555A5C;width:150px;">Риск сахарного диабета<br>  2 типа
+                    <p style="color:#555A5C;width:150px;font-family: gilroy-semibold;">Риск сахарного диабета<br>  2 типа
                     </p>
                 </td>
             </tr>
@@ -759,30 +934,30 @@ margin-footer:0;
                 <td class="gray">
                     <p>
                     <img src=\'./assets/radio-red.svg\' width="12px" height="12px" style="padding-right:5px;margin-bottom:-2px;">
-                    <span style="color: #596363;">Высокий риск</span>
+                    <span style="color: #596363;font-family: gilroy;">Высокий риск</span>
                     </p>
                     <p><img src=\'./assets/risk9.svg\' style="padding-top:14px;padding-bottom:7px;" height="50"></p>
-                    <p style="color:#555A5C;width:150px;">Риск патологического отложения жира вокруг внутренних органов
+                    <p style="color:#555A5C;width:150px;font-family: gilroy-semibold;">Риск патологического отложения жира вокруг внутренних органов
                     </p>
                 </td>
             
                 <td  class="gray">
                     <p>
                     <img src=\'./assets/radio-red.svg\' width="12px" height="12px" style="padding-right:5px;margin-bottom:-2px;">
-                    <span style="color: #596363;">Высокая потребность</span>
+                    <span style="color: #596363;font-family: gilroy;">Высокая потребность</span>
                     </p>
                     <p><img src=\'./assets/risk10.svg\' style="padding-top:14px;padding-bottom:7px;" height="50"></p>
-                    <p style="color:#555A5C;width:150px;">Потребность в мононенасыщенных жирных кислотах
+                    <p style="color:#555A5C;width:150px;font-family: gilroy-semibold;">Потребность в мононенасыщенных жирных кислотах
                     </p>
                 </td>
             
                 <td class="gray">
                     <p>
                     <img src=\'./assets/radio-red.svg\' width="12px" height="12px" style="padding-right:5px;margin-bottom:-2px;">
-                    <span style="color: #596363;">Высокая потребность</span>
+                    <span style="color: #596363;font-family: gilroy;">Высокая потребность</span>
                     </p>
                     <p><img src=\'./assets/risk11.svg\' style="padding-top:14px;padding-bottom:7px;" height="50"></p>
-                    <p style="color:#555A5C;width:150px;">Потребность в Омега-3 жирных кислотах
+                    <p style="color:#555A5C;width:150px;font-family: gilroy-semibold;">Потребность в Омега-3 жирных кислотах
                     </p>
                 </td>
             </tr>
@@ -795,7 +970,7 @@ margin-footer:0;
 <div class="page page9" style="page-break-before:left;">
     <h2 class="gray" style="text-transform:uppercase;margin:0 0 25px 0;">ОБЩИЕ РЕКОМЕНДАЦИИ</h2>
     <div class="page9__content content-text" style="width:504px;color: #555A5C;">  
-        <p>
+        <p style="font-family:gilroy-semibold;font-size:16px;">
         Негативный эффект генов:
         </p>
         <p>
@@ -820,7 +995,7 @@ margin-footer:0;
 <div class="page page10" style="page-break-before:left;">
     <h2 class="gray" style="text-transform:uppercase;margin:0 0 30px 0;">ОБЩИЕ РЕКОМЕНДАЦИИ</h2>
     <div class="page10__content content-text" style="width:633px;color: #555A5C;">  
-        <p>
+        <p style="font-family:gilroy-semibold;font-size:16px;">
         Рекомендации:
         </p>
         <p>- При необходимости снизить вес для вас более эффективна средиземноморская диета. </p>
@@ -836,7 +1011,7 @@ margin-footer:0;
 <div class="page page11" style="page-break-before:left;">
     <h2 class="gray" style="text-transform:uppercase;margin:0 0 30px 0;">ОБЩИЕ РЕКОМЕНДАЦИИ</h2>
     <div class="page11__content content-text" style="width:485px;color: #555A5C;">  
-        <p>
+        <p style="font-family:gilroy-semibold;font-size:16px;">
         Благоприятный эффект генов:
         </p>
         <p>
@@ -1066,11 +1241,411 @@ margin-footer:0;
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
 
- 
+<div class="page page15 template1" style="page-break-before:left;">
+    <div class="page15__content content-text" style="color: #555A5C;">  
+        <table  height="200" width="600" style="margin-left:-2px;">
+            <tr>
+                <td class="item" >
+                    <img src=\'./assets/radio-red.svg\' width="16px" height="16px" style="padding-right:5px;margin-bottom:-2px;">
+
+                    <span style="color: #596363;font-size: 16px;line-height: 150%;">Высокий риск</span>
+
+                    <p><img src=\'./assets/risk1.svg\' style="padding-top:14px;padding-bottom:10px;" height="70"></p>
+
+                    <p style="font-family:gilroy-semibold;height:43px;margin:0;padding:0;">
+                        Риск избыточной массы <br>  тела
+                    </p>
+                </td>
+                <td width="24"></td>
+                <td >
+                    <table width="255">
+                        <tr>
+                            <td style="font-size:16px;font-family:gilroy-semibold;padding-bottom:10px;">
+                            Генетически обусловленный  риск избыточной массы тела
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:14px;font-family:gilroy;padding-bottom:20px;line-height: 150%;">
+                            Избыточная масса тела и ожирение не только эстетическая проблема, но и значительный фактор риска многих заболеваний. Средний риск ожирения в России составляет 25%.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div style="width:544px;padding-top:10px;">
+            <p>Как и многие другие заболевания, ожирение является результатом взаимодействия между экологическими и генетическими факторами. Исследования выявили варианты в нескольких генах, которые могут способствовать увеличению веса и распределению жира в организме, хотя только в нескольких случаях гены являются основной причиной ожирения.
+            Полиморфизмы в различных генах, контролирующих аппетит и метаболизм, предрасполагают к ожирению при определенных диетических условиях. Процент ожирения, который можно отнести к генетике, варьируется в широких пределах, в зависимости от изучаемой популяции, от 6% до 85%. </p>
+            <p>
+            В генетических исследованиях на больших группах людей были выявлены варианты генов, влияющие на индекс массы тела, которые включены в настоящий тест. Выявление у Вас определенных вариантов генов может повышать или снижать Ваш индивидуальный риск. Ваш образ жизни, питание и уровень физической активности, другие генетические и негенетические факторы также влияют на риск повышенной массы тела и ожирения.
+            </p>
+        </div>
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
 
+<div class="report-box page page16" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page16__content content-text">
+        <table height="175" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1" height="175" width="315" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:15px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40">Ген ADRB2 </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация C;C</td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene3" height="40">Полиморфизм rs1042714 </td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                    <table class="table2">
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                            Полиморфизм  гена ADRB2 (Бета-адренорецептор 2 типа). Расположен на длинном плече хромосомы 5 в цитосегменте 32.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <span style="font-family:gilroy-semibold">Функция:</span> Присутствует на мембранах клеток гладкой мускулатуры и в жировых клетках. Участвует в мобилизации жира из жировых клеток в ответ на гормоны (адреналин, норадреналин), стимулируют гликогенолиз в печени и выброс глюкозы в кровь для восполнения энергетических потребностей работы мышц.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:16px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+            Генотип C/C ассоциирован с умеренно повышенным риском развития ожирения и метаболического синдрома, а также сахарного диабета 2 типа. Энергосберегающий тип. Вариант адренергического рецептора 2 связанный со сниженной активностью рецептора. Рекомендовано подключение физической активности для создания дефицита калорий, либо снижение калорийности дневного рациона за счет снижение потребления количества жиров.
+        </div>
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+
+
+<div class="report-box page page17" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page17__content content-text">
+        <table height="158" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1" height="158" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:15px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40">Ген APOA2 </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация G;G</td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene3" height="40" style="padding-right:15px;">Полиморфизм rs5082 </td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                <table class="table2" height="158" >
+                <tr>
+                    <td style="padding-bottom:5px;">
+                    Полиморфизм гена APOA2 (Аполипопротеин А2). Расположен на длинном плече хромосомы 1, в цитосегменте 23.3. 
+                    </td>
+                </tr>
+                <tr>
+                    <td height="80px">
+                    <span style="font-family:gilroy-semibold">Функция:</span> Основной белок липопротеинов высокой плотности. Полиморфизм изменяет промоторную последовательность гена APOA2, в результате чего носители экспрессируют меньше белкапродукта этого гена.
+                    </td>
+                </tr>
+            </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;margin-bottom:16px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+            Выше риск избыточной массы. В среднем более высокое потребление калорий за счет жиров и белков.  Данный генотип, по данным исследований, ассоциирован с небольшим протективным эффектом в отношении гипертриглицеридемии и атеросклероза, но это не значит, что будет полезно есть свиное сало на завтрак, обед и ужин, особенно с учетом, что генотип также ассоциирован с большими рисками ожирения.
+        </div>
+
+
+        
+        <table  style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40">Ген FABP2 </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация T;C</td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene32" height="40" style="padding-right:15px;">Полиморфизм  rs1799883</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                    <table class="table2">
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                            Полиморфизм гена FABP2 (Белок, связывающий жирные кислоты в кишечнике, 2). Находится на длинном плече хромосомы 10, в цитосегменте 25.2 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80px">
+                            <span style="font-family:gilroy-semibold">Функция:</span> Переносчик жирных кислот в тонком кишечнике. Контролирует эффективность усвоения жиров, поступающих с пищей.
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        Генотип связан с умеренно повышенной чувствительностью к насыщенным жирам. Более активное всасывание жиров в кишечнике по сравнению с распространенным генотипом T/T. Во избежание набора массы тела рекомендовано снижение калорийности рациона за счет снижения потребления пищи, богатой животными жирами.
+        </div>
+
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
  
+<div class="report-box page page18" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page18__content content-text" >
+    <table height="158" style="border-collapse:collapse" width="940px">
+        <tr>
+            <td>
+                <table class="table1" height="158" style="margin-left:-2px;">
+                <tr>
+                    <td class="img" >
+                        <img src=\'./assets/page18-dna.svg\' style="padding-right:10px;" height="70">
+                    </td>
+                    <td class="desc" style="text-align:right;">
+                    <table width="195">
+                        <tr>
+                            <td class="gene gene1" height="40" style="padding-right:20px;">Ген FTO </td>
+                        </tr>
+                        <tr><td height="10"></td></tr>
+                        <tr>
+                            <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация T;A</td>
+                        </tr>
+                        <tr><td height="10"></td></tr>
+                        <tr>
+                            <td class="gene gene31" height="40" style="padding-right:10px;">Полиморфизм  rs9939609</td>
+                        </tr>
+                    </table>
+                    </td>
+                </tr>
+                </table>
+            </td>
+
+            <td width="5"></td>
+            <td>
+            <table class="table2" height="158" >
+            <tr>
+                <td style="padding-bottom:5px;">
+                Полиморфизм гена FTO (альфа-кетоглутарат-зависимая диоксигеназа). Расположен на хромосоме 16 в цитогенетическом локусе 12.2
+                </td>
+            </tr>
+            <tr>
+                <td height="80px">
+                <span style="font-family:gilroy-semibold">Функция:</span> Данный генетический локус связан с ожирением за счет нарушения пищевого поведения - избыточным потреблением калорий. Этот ген оказывает последовательное и хорошо воспроизводимое влияние на риск ожирения. С каждым аллелем A связано увеличение веса на около 1,5 кг.
+                </td>
+            </tr>
+        </table>
+            </td>
+        </tr>
+    </table>
+
+    <div style="font-family:gilroy;margin-top:10px;margin-bottom:16px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+    Фактор риска ожирения. Носители этого генотипа обычно имеют вероятность ожирения выше в 1,3 раза по равнению с наиболее распространенным генотипом T/T. Рекомендован контроль потребления пищи, так как носители данного генотипа, по данным исследований, имеют проблемы с бесконтрольным, излишним потреблением еды. Также, рекомендовано снижение потребления углеводов, особенно простых сахаров, в качестве профилактики сахарного диабета и ожирения.
+    </div>
+
+
+    
+    <table  style="border-collapse:collapse;" width="940px">
+        <tr>
+            <td>
+                <table class="table1" style="margin-left:-2px;">
+                <tr>
+                    <td class="img" >
+                        <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                    </td>
+                    <td class="desc" style="text-align:right;">
+                    <table width="195">
+                        <tr>
+                            <td class="gene gene1" height="40" style="padding-right:25px;">Ген INS</td>
+                        </tr>
+                        <tr><td height="10"></td></tr>
+                        <tr>
+                            <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация T;C
+                            </td>
+                        </tr>
+                        <tr><td height="10"></td></tr>
+                        <tr>
+                            <td class="gene gene32" height="40" style="padding-right:20px;">Полиморфизм rs689</td>
+                        </tr>
+                    </table>
+                    </td>
+                </tr>
+                </table>
+            </td>
+
+            <td width="5"></td>
+            <td>
+                <table class="table2">
+                    <tr>
+                        <td style="padding-bottom:5px;">
+                        Полиморфизм гена INS (Инсулин).  Расположен на коротком плече хромосомы 11 в цитогенетическом локусе 15.5.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="80px">
+                        <span style="font-family:gilroy-semibold">Функция:</span> Ген INS кодирует инсулин – гормон, секретируемый b-клетками поджелудочной железы. Принимает участие в метаболизме глюкозы.
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <div style="font-family:gilroy;margin-top:10px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+    Несколько выше чувствительность к избытку углеводов в рационе. При избыточном потреблении углеводов повышается вероятность  формирования избыточной массы тела. Рекомендовано снижение потребления углеводов за счет отказа от простых сахаров, что будет актуально, как для поддержания нормального веса, так и профилактики сахарного диабета.
+    </div>
+
+
+</div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="page page19" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
+    <div class="page19__content content-text" style="width:507px; color: #555A5C;margin-bottom:38px; ">
+        <p>
+        Ваш генетически обусловленный риск избыточной массы тела, рассчитанный на основе исследованных полиморфизмов, выше чем общепопуляционный риск. Это означает, что при одинаковом режиме питания, физических нагрузках и других обстоятельствах ваш вес вероятно будет выше, чем у других людей.
+        </p>
+        <p>
+        Однако, следует помнить, что генетические факторы не являются определяющими при формировании избыточного веса. На формирование избыточного веса значительно влияют диета, физическая активность и другие не генетические факторы. Учитывая особенности вашего генотипа следует более внимательно следить за вашим весом.
+        </p>
+        <p style="margin:0;">
+        Избегайте переедания, придерживайтесь низкожировой и низкоуглеводной диеты и ведите подвижный образ жизни. 
+        </p>
+    </div>
+    <div class="content-text" style="width:560px;margin:0;">
  
+        <p class="risk-title1" style="margin:0;">Индивидуальный риск</p>
+        <p class="risk-title2" style="">90 баллов - выше среднего</p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 435px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
+            </p>
+        </div>
+
+        <p class="risk-title1" style="">Среднепопуляционный риск</p>
+        <p class="risk-title2"  style="">63 баллов</p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 290px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);margin:0;">
+            </p>
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+
+<div class="page page20 template1" style="page-break-before:left;">
+    <div class="page15__content content-text" style="color: #555A5C;">  
+        <table  height="200" width="610" style="margin-left:-2px;">
+            <tr>
+                <td class="item" >
+                    <img src=\'./assets/radio-red.svg\' width="16px" height="16px" style="padding-right:5px;margin-bottom:-2px;">
+
+                    <span style="color: #596363;font-size: 16px;line-height: 150%;">Низкая эффективность</span>
+
+                    <p><img src=\'./assets/risk2.svg\' style="padding-top:14px;padding-bottom:10px;" height="70"></p>
+
+                    <p style="font-family:gilroy-semibold;height:43px;margin:0;padding:0;">
+                        Эффективность низкожировой<br> диеты
+                    </p>
+                </td>
+                <td width="20"></td>
+                <td >
+                    <table width="255">
+                        <tr>
+                            <td style="font-size:16px;font-family:gilroy-semibold;padding-bottom:10px;">
+                                Эффективность низкожировой диеты для снижения веса
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:14px;font-family:gilroy;padding-bottom:20px;line-height: 150%;">
+                            Если Вы хотите сбросить лишний вес - снижение количества жиров не правильный подход к проблеме. Гены расскажут, какая диета подойдет именно Вам
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div style="width:544px;padding-top:10px;">
+            <p>Низкожировые диеты - диеты с низким содержанием животных жиров и транс-жиров. Рекомендуемые жиры полиненасыщенные жирные кислоты, содержащиеся в рыбе и нерафинированных растительных жирах. </p>
+            <p>
+            Соблюдение низкожировой диеты снижает риск сердечно-сосудистых заболеваний, заболеваний печени и почек. Однако резкое ограничение жиров на длительное время не является вариантом правильного питания. Длительное исключение жирных продуктов из рациона может вызвать дефицит жирорастворимых витаминов A, D, К, Е, что ведет к физическому и умственному утомлению, сухости кожи, выпадению волос и другим нарушениям. </p>
+            <p>
+            Эффективность всасывания жиров стенкой кишечника контролируется геном FABP2. Полиморфные вариации гена снижают активность белка, кодируемого FABP2. Чем ниже активность белка FABP2, тем менее эффективна низкожировая диета в борьбе с лишним весом.
+            </p>
+            </p>
+        </div>
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+
+
 ';
 
 

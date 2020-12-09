@@ -316,7 +316,7 @@ margin-footer:0;
     line-height:150%;
 }
 
-.page9, .page10, .page11 , .page15, .page19, .page20, .page24 , .page25 , .page29 , .page30{
+.page9, .page10, .page11 , .page15, .page19, .page20, .page24 , .page25 , .page29 , .page30 , .page33, .page36 , .page39 , .page34 , .page37, .page40 {
     background-position: right center;
     background-image-resize: 5;
     height: 100%;
@@ -361,6 +361,30 @@ margin-footer:0;
 
 .page30 {
     background: transparent url(\'./assets/page30.png\') no-repeat;
+}
+
+.page33 {
+    background: transparent url(\'./assets/page33.png\') no-repeat;
+}
+
+.page36 {
+    background: transparent url(\'./assets/page36.png\') no-repeat;
+}
+
+.page39 {
+    background: transparent url(\'./assets/page39.png\') no-repeat;
+}
+
+.page34 {
+    background: transparent url(\'./assets/page34.png\') no-repeat;
+}
+
+.page37 {
+    background: transparent url(\'./assets/page37.png\') no-repeat;
+}
+
+.page40 {
+    background: transparent url(\'./assets/page40.png\') no-repeat;
 }
 
 .page9 p , .page10 p , .page11 p {
@@ -449,19 +473,19 @@ margin-footer:0;
     box-sizing: border-box;
 }
 
-.page16 .table1, .page21 .table1 , .page26 .table1 {
+.page16 .table1, .page21 .table1 , .page26 .table1 , .page31 .table1 , .page35 .table1 , .page38 .table1 {
     background: transparent url(\'./assets/page16-graybox.svg\') no-repeat;
     height: 174px;
 }
 
-.page17 .table1 , .page18 .table1 , .page22 .table1 , .page27 .table1 , .page28 .table1 {
+.page17 .table1 , .page18 .table1 , .page22 .table1 , .page27 .table1 , .page28 .table1 , .page32 .table1{
     background: transparent url(\'./assets/page17-graybox1.svg\') no-repeat;
     height: 158px;
 }
 
-.page23 .table1 , .page28 .table12 {
+.page23 .table1 , .page28 .table12 , .page32 .table12 {
     background: transparent url(\'./assets/page23-graybox1.svg\') no-repeat;
-    height: 217px;
+    height: 213px;
 }
 
 .report-box .table2 , .report-box .table22 {
@@ -478,19 +502,19 @@ margin-footer:0;
     color: #555A5C;
 }
 
-.page16 .table2, .page21 .table2 , .page26 .table2 {
+.page16 .table2, .page21 .table2 , .page26 .table2 , .page31 .table2 , .page35 .table2 , .page38 .table2 {
     background: transparent url(\'./assets/page16-graybox2.svg\') no-repeat;
     height: 174px;
 }
 
-.page17 .table2, .page18 .table2 , .page22 .table2  , .page27 .table2 , .page28 .table2{
+.page17 .table2, .page18 .table2 , .page22 .table2  , .page27 .table2 , .page28 .table2 , .page32 .table2{
     background: transparent url(\'./assets/page17-graybox2.svg\') no-repeat;
     height: 158px;
 }
 
-.page23 .table2 , .page28 .table22 {
+.page23 .table2 , .page28 .table22 , .page32 .table22{
     background: transparent url(\'./assets/page23-graybox2.svg\') no-repeat;
-    height: 217px;
+    height: 213px;
 }
 
 .report-box .table1 .desc .gene {
@@ -513,10 +537,12 @@ margin-footer:0;
     color: #fff;
 }
 
-.page16 .table1 .desc .gene3, .page21 .table1 .desc .gene3 , .page26 .table1 .desc .gene3 {
+.page16 .table1 .desc .gene3, .page21 .table1 .desc .gene3 , .page26 .table1 .desc .gene3 , .page31 .table1 .desc .gene3 , 
+.page35 .table1 .desc .gene3, .page38 .table1 .desc .gene3 {
     background: transparent url(\'./assets/page16-blue180.svg\') no-repeat;
     width: 180px;
     color: #fff;
+    
 }
 
 .page17 .table1 .desc .gene3 , .page22 .table1 .desc .gene3 , .page28 .table12 .desc .gene3{
@@ -526,13 +552,15 @@ margin-footer:0;
     font-size:14px;
 }
 
-.page17 .table1 .desc .gene32 , .page22 .table1 .desc .gene32 , .page27 .table1 .desc .gene32 , .page28 .table1 .desc .gene32 {
+.page17 .table1 .desc .gene32 , .page22 .table1 .desc .gene32 , .page27 .table1 .desc .gene32 , .page28 .table1 .desc .gene32, 
+.page32 .table1 .desc .gene32 {
     background: transparent url(\'./assets/page17-blue190.svg\') no-repeat;
     width: 180px;
     color: #fff;
+    font-size:14px;
 }
 
-.page18 .table1 .desc .gene31 {
+.page18 .table1 .desc .gene31 , .page32 .table12 .desc .gene3 {
     background: transparent url(\'./assets/page16-blue180.svg\') no-repeat;
     width: 180px;
     color: #fff;
@@ -589,6 +617,10 @@ margin-footer:0;
 }
 
 </style>
+
+
+
+
 
 <sethtmlpagefooter name="footerCover" value="on" />
     <div class="cover">
@@ -1884,6 +1916,7 @@ margin-footer:0;
 </div>
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
+
 <div class="page page24" style="page-break-before:left;">
     <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
     <div class="page24__content content-text" style="width:507px; color: #555A5C;margin-bottom:150px; ">
@@ -2178,7 +2211,7 @@ margin-footer:0;
         <table height="213" style="border-collapse:collapse;margin-bottom:0px;padding-bottom:0;" width="940px">
             <tr>
                 <td width="314">
-                    <table height="220" class="table12" style="margin-left:-2px;margin-bottom:0;padding-bottom:0;padding-top:25px;" >
+                    <table height="220" class="table12" style="margin-left:-2px;margin-bottom:0;padding-bottom:0;padding-top:25px;padding-right:0;" width="314">
                     <tr>
                         <td class="img" height="217" width="100">
                             <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
@@ -2220,6 +2253,7 @@ margin-footer:0;
     </div>
 </div>
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
 
 <div class="page page29" style="page-break-before:left;">
     <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
@@ -2295,6 +2329,569 @@ margin-footer:0;
     </div>
 </div>
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+
+<div class="report-box page page31" style="">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page26__content content-text">
+        <table height="175" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1" height="175" width="315" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:15px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40">Ген APOA2</td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация G;G
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene3" height="40" style="padding-right:20px">Полиморфизм rs5082</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                    <table class="table2">
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                                Полиморфизм гена APOA2 (Аполипопротеин А2). Расположен на длинном плече хромосомы 1, в цитосегменте 23.3.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80">
+                            <span style="font-family:gilroy-semibold"> Функция:</span> Основной белок липопротеинов высокой плотности. Полиморфизм изменяет промоторную последовательность гена APOA2, в результате чего носители экспрессируют меньше белкапродукта этого гена.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:16px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+            Норма. Вариант гена не предрасполагает к выраженным негативным последствиям избыточного потребления насыщенных жиров.
+        </div>
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="report-box page page32" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page28__content content-text">
+        <table height="158" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1" height="158" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40">Ген FABP2</td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация T;C
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene32" height="40" style="padding-right:15px;">Полиморфизм rs1799883</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                <table class="table2" height="158" >
+                <tr>
+                    <td style="padding-bottom:5px;">
+                    Полиморфизм гена FABP2 (Белок, связывающий жирные кислоты в кишечнике, 2). Находится на длинном плече хромосомы 10, в цитосегменте 25.2
+                    </td>
+                </tr>
+                <tr>
+                    <td height="80px">
+                        <span style="font-family:gilroy-semibold">Функция:</span> Переносчик жирных кислот в тонком кишечнике. Контролирует эффективность усвоения жиров, поступающих с пищей.
+                    </td>
+                </tr>
+            </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;margin-bottom:25px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        Умеренный фактор, повышающий необходимость ограничивать потребление насыщенных жиров.
+        </div>
+        
+        <table height="213" style="border-collapse:collapse;margin-bottom:0px;padding-bottom:0;" width="940px">
+            <tr>
+                <td width="314">
+                    <table height="220" class="table12" style="margin-left:-2px;margin-bottom:0;padding-bottom:0;padding-top:25px;" >
+                    <tr>
+                        <td class="img" height="217" width="85">
+                            <img src=\'./assets/page18-dna.svg\' style="" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;padding-top:5px;">
+                        <table width="185" height="217">
+                            <tr>
+                                <td class="gene gene3" height="40" style="padding: 0 15px 5px 0;">Гаплотипы гена APOE</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="12"></td>
+                <td>
+                    <table height="213" class="table22" >
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                                Гаплотипы гена APOE - это комбинация 2-х полиморфизмов- rs429358 и rs7412, расположенных в цитосегменте 19q13.32, генотипы которых которые обычно наследуются вместе. Основными гаплотипами являются <span style="font-family:quivira">&#8455;</span>2, <span style="font-family:quivira">&#8455;</span>3 и <span style="font-family:quivira">&#8455;</span>4, встречающиеся в европейской популяции с частотами 6.65, 78.7 и 12.07% соответственно.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80px">
+                            <span style="font-family:gilroy-semibold">Функция:</span> Ген ApoE кодирует белок аполипопротеин Е (АпоЕ). Белок АпоЕ - фермент, играющий важную роль в метаболизме липидов. Он связан с предрасположенностью к гиперлипопротеинемии (ГЛП), атеросклерозу, гиперхолестеринемии, болезни Альцгеймера и пр.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="padding:0;margin:0;font-family:gilroy;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        <p style="margin: 5px 0 0 0">Обнаружен гаплотип APO-E3/E3. Частота в европейской популяции,%: 78.7761
+        </p>
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="page page33" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
+    <div class="page33s__content content-text" style="width:558px; color: #555A5C;margin-bottom:150px; ">
+            <p>
+                Наиболее распространенный генотип. Не влияет на необходимость ограничивать потребление насыщенных жирных кислот.
+            </p>
+            <p>
+                По результатам генетического теста, выраженность негативных последствий избыточного потребления насыщенных жирных кислот немного ниже среднепопуляционной.
+            </p>
+            <p style="margin:0;">
+                Однако, следует помнить, что избыточное потребление насыщенных жирных кислот может быть самостоятельным фактором риска для некоторых заболеваний независимо от генотипа.        
+            </p>
+    </div>
+    <div class="content-text" style="width:560px;margin:0;">
+ 
+        <p class="risk-title1" style="margin:0;">Индивидуальная потребность</p>
+        <p class="risk-title2" style="">45 баллов - ниже среднего
+        </p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 220px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
+            </p>
+        </div>
+
+        <p class="risk-title1" style="">Среднепопуляционная потребность</p>
+        <p class="risk-title2"  style="">54 баллов</p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 275px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);margin:0;">
+            </p>
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="page page34 template1" style="page-break-before:left;">
+    <div class="page34__content content-text" style="color: #555A5C;">  
+        <table  height="200" width="610" style="margin-left:-2px;">
+            <tr>
+                <td class="item" >
+                    <img src=\'./assets/radio-green.svg\' width="16px" height="16px" style="padding-right:5px;margin-bottom:-2px;">
+
+                    <span style="color: #596363;font-size: 16px;line-height: 150%;">Низкая потребность</span>
+
+                    <p><img src=\'./assets/risk5.png\' style="padding-top:14px;padding-bottom:10px;" height="70"></p>
+
+                    <p style="font-family:gilroy-semibold;height:43px;margin:0;padding:0;">
+                        Потребность<br> в разгрузочных днях
+                    </p>
+                </td>
+                <td width="20"></td>
+                <td >
+                    <table width="255">
+                        <tr>
+                            <td style="font-size:16px;font-family:gilroy-semibold;padding-bottom:10px;">
+                                Потребность в разгрузочных днях
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:14px;font-family:gilroy;line-height: 150%;">
+                                Разгрузочный день – это период, во время которого допустим прием только одного вида продукта, который употребляется на протяжении всего дня. Как правило, это могут быть овощи, фрукты, каши 
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div style="width:544px;padding-top:10px;">
+            <p> 
+                Нужно ли Вам устраивать «разгрузочные дни» - периоды с низким содержанием жиров в диете или для вашего организма благоприятнее равномерное питание? На этот вопрос может ответить ген PPARG, который отвечает за рост жировых клеток. 
+            </p>
+            <p>
+                Большое количество генов (в том числе PPARG) «достались» нам в ходе эволюции от животных. Так как животные обычно имеют доступ к калорийной пище, богатой жирами, далеко не круглый год, работа PPARG жизненно необходима им в голодные периоды, поскольку этот ген регулирует накопление жира. Вариант С (соответствует Pro12) -примерно 85% людей имеют этот «запасающий» вариант и «разгрузочные дни» с низким содержанием жиров физиологичны и полезны, особенно при низкой физической активности.    
+            </p>
+        </div>
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="report-box page page35" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page26__content content-text">
+        <table height="175" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1" height="175" width="315" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:15px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40">Ген PPARG </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация C;G
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene3" height="40" style="padding-right:10px">Полиморфизм rs1801282</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                    <table class="table2">
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                            Полиморфизм гена PPARG (Рецептор активатора пероксисом G). Расположен на коротком плече хромосомы 3 в цитогенетическом сегменте 25.2 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80">
+                            <span style="font-family:gilroy-semibold">Функция:</span> Регулирует накопление жирных кислот и метаболизм глюкозы.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:16px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+            Данный генотип связан с пониженной, чем при генотипе С/С потребностью в разгрузочных днях. Дня его носителей благоприятнее равномерный тип питания.
+        </div>
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="page page36" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
+    <div class="page36__content content-text" style="width:558px; color: #555A5C;margin-bottom:260px; ">
+            <p style="margin:0;">
+                При Вашем генотипе ниже индивидуальная потребность в разгрузочных днях, предпочтительнее равномерный тип питания. Старайтесь придерживаться равномерного типа питания с умеренным ограничением калорий при необходимости снизить массу тела. Для Вас менее физиологичны разгрузочные дни.     
+            </p>
+    </div>
+    <div class="content-text" style="width:560px;margin:0;">
+ 
+        <p class="risk-title1" style="margin:0;">Индивидуальная потребность</p>
+        <p class="risk-title2" style="margin-bottom:20px;">0 баллов - ниже среднего
+        </p>
+
+        <div>
+            <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
+            </p>
+        </div>
+
+        <p class="risk-title1" style="">Среднепопуляционная потребность</p>
+        <p class="risk-title2"  style="">87 баллов</p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 380px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);margin:0;">
+            </p>
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+
+<div class="page page37 template1" style="page-break-before:left;">
+    <div class="page37__content content-text" style="color: #555A5C;">  
+        <table  height="200" width="610" style="margin-left:-2px;">
+            <tr>
+                <td class="item" >
+                    <img src=\'./assets/radio-red.svg\' width="16px" height="16px" style="padding-right:5px;margin-bottom:-2px;">
+
+                    <span style="color: #596363;font-size: 16px;line-height: 150%;">Высокая выраженность</span>
+
+                    <p><img src=\'./assets/risk6.svg\' style="padding: 10px 0 0 0 ;margin-left:-20px;" height="90"></p>
+
+                    <p style="font-family:gilroy-semibold;height:43px;margin:0;padding:0;">
+                        Выраженность<br> ЙО-ЙО эффекта
+                    </p>
+                </td>
+                <td width="20"></td>
+                <td style="vertical-align:top;">
+                    <table width="255" >
+                        <tr>
+                            <td style="font-size:16px;font-family:gilroy-semibold;padding-bottom:15px;">
+                                ЙО-ЙО эффект
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:14px;font-family:gilroy;line-height: 150%;">
+                            Похудели и набрали? Набирали и похудели? Скорее всего дело в генетике, это называется ЙО-ЙО эффект.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div style="width:544px;padding-top:10px;">
+            <p> 
+            Исследования показывают, что некоторые люди возвращают свой лишний вес после успешной диеты быстрее, чем другие. Во многом это детерминировано нашими генами.
+            </p>
+            <p>
+            Для обычного человека это скорее минус, чем плюс. Однако, это полезное свойство для спортсменов и системных людей.
+            </p>
+        </div>
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="report-box page page38" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page27__content content-text">
+        <table height="158" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1" height="158" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40">Ген ADRB2</td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация C;C
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene3" height="40" style="padding-right:15px;">Полиморфизм rs1042714</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                <table class="table2" height="158" >
+                <tr>
+                    <td style="padding-bottom:5px;">
+                    Полиморфизм  гена ADRB2 (Бета-адренорецептор 2 типа). Расположен на длинном плече хромосомы 5 в цитосегменте 32. 
+                    </td>
+                </tr>
+                <tr>
+                    <td height="80px">
+                        <span style="font-family:gilroy-semibold">Функция:</span> Присутствует на мембранах клеток гладкой мускулатуры и в жировых клетках. Участвует в мобилизации жира из жировых клеток в ответ на гормоны (адреналин, норадреналин), стимулируют гликогенолиз в печени и выброс глюкозы в кровь для восполнения энергетических потребностей работы мышц.
+                    </td>
+                </tr>
+            </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;margin-bottom:35px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+            Люди с таким генотипом имеют выше риск набора массы тела после успешного завершения диеты.
+        </div>
+        
+        <table  style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40" style="padding-right:15px;">Ген PPARG</td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация C;G
+
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene3" height="40" style="padding-right:15px;">Полиморфизм rs1801282</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                    <table class="table2">
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                            Полиморфизм гена PPARG (Рецептор активатора пероксисом G). Расположен на коротком плече хромосомы 3 в цитогенетическом сегменте 25.2
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80px">
+                            <span style="font-family:gilroy-semibold">Функция:</span> Регулирует накопление жирных кислот и метаболизм глюкозы.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+            Люди с таким генотипом имеют выше риск набора массы тела после успешного завершения диеты.
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="page page39" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
+    <div class="page39__content content-text" style="width:558px; color: #555A5C;margin-bottom:260px; ">
+            <p style="margin:0;">
+            Ваш генотип предполагает повышенную вероятность проявления ЙО-ЙО эффекта по сравнению со среднепопуляционной вероятностью. При повышенном риске возвращения избыточной массы тела, рекомендуется постоянный контроль калорийности потребляемых продуктов после завершения успешной диеты, равномерная физическая нагрузка.
+            </p>
+    </div>
+    <div class="content-text" style="width:560px;margin:0;">
+ 
+        <p class="risk-title1" style="margin:0;">Индивидуальная выраженность</p>
+        <p class="risk-title2" style="">100 баллов - выше среднего
+        </p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 532px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
+            </p>
+        </div>
+
+        <p class="risk-title1" style="">Среднепопуляционная выраженность</p>
+        <p class="risk-title2"  style="">30 баллов</p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 120px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);margin:0;">
+            </p>
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="page page40 template1" style="page-break-before:left;">
+    <div class="page40__content content-text" style="color: #555A5C;">  
+        <table  height="200" width="610" style="margin-left:-2px;">
+            <tr>
+                <td class="item" >
+                    <img src=\'./assets/radio-green.svg\' width="16px" height="16px" style="padding-right:5px;margin-bottom:-2px;">
+
+                    <span style="color: #596363;font-size: 16px;line-height: 150%;">Низкая склонность</span>
+
+                    <p><img src=\'./assets/risk7.svg\' style="padding-top:14px;padding-bottom:10px;" height="70"></p>
+
+                    <p style="font-family:gilroy-semibold;height:43px;margin:0;padding:0;">
+                        Чувство насыщения и <br> склонность к перееданию
+                    </p>
+                </td>
+                <td width="20"></td>
+                <td >
+                    <table width="255">
+                        <tr>
+                            <td style="font-size:16px;font-family:gilroy-semibold;padding-bottom:10px;">
+                            Пищевое поведение. Чувство насыщения и склонность к перееданию
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:14px;font-family:gilroy;line-height: 150%;">
+                            Многие считают, что склонность к перееданию - это характер, отчасти - да. Не забывайте о генетике ее влияние в этом вопросе занимает не последнее место.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div style="width:544px;padding-top:10px;">
+            <p> 
+                Пищевое насыщение - исчезновение чувства голода в процессе еды, отказ от дальнейшего приема пищи. Скорость насыщения зависит как от механических (растяжение желудка), так и от нейроэндокринных факторов (выделение в кровь активных веществ, влияющих на центр насыщения в головном мозге).
+            </p>
+            <p>
+                Вариации в генах, контролирующих нейроэндокринные реакции, могут изменять концентрацию и активность кодируемых ими белков и, таким образом, влиять на скорость возникновения чувства насыщения. 
+            </p>
+            <p>
+                У людей с неблагоприятными вариантами этих генов позже наступает ощущение сытости, им сложнее контролировать объем съедаемой пищи, что может выражаться в переедании.
+            </p>
+        </div>
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+
+
+
+
+
 
 
 ';

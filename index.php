@@ -57,7 +57,7 @@ $html = '
 </htmlpagefooter>
 
 <htmlpagefooter name="MyFooter2-gray-border">
-    <table width="100%" style="padding: 20px 0 26px 53px;vertical-align:midle;border: 0.5px solid #D1D1D1;z-index:100;">
+    <table width="100%" style="padding: 20px 0 26px 53px;vertical-align:midle;border-top: 0.5px solid #D1D1D1;z-index:100;">
     <tr>
     <td><img src="./assets/logo.svg" style="max-width:102px;height: 52px;"></td>
     <td style="font-family:gilroy; font-weight: 400; font-size: 11px; line-height: 16px; color:#AEB8BE;padding-left:25px; "> 
@@ -316,7 +316,7 @@ margin-footer:0;
     line-height:150%;
 }
 
-.page9, .page10, .page11 , .page15, .page19, .page20, .page24 , .page25 , .page29 , .page30 , .page33, .page36 , .page39 , .page34 , .page37, .page40 {
+.bg-right {
     background-position: right center;
     background-image-resize: 5;
     height: 100%;
@@ -385,6 +385,26 @@ margin-footer:0;
 
 .page40 {
     background: transparent url(\'./assets/page40.png\') no-repeat;
+}
+
+.page42 {
+    background: transparent url(\'./assets/page42.png\') no-repeat;
+}
+
+.page46 {
+    background: transparent url(\'./assets/page46.png\') no-repeat;
+}
+
+.page50 {
+    background: transparent url(\'./assets/page50.png\') no-repeat;
+}
+
+.page43 {
+    background: transparent url(\'./assets/page43.png\') no-repeat;
+}
+
+.page47 {
+    background: transparent url(\'./assets/page47.png\') no-repeat;
 }
 
 .page9 p , .page10 p , .page11 p {
@@ -473,19 +493,24 @@ margin-footer:0;
     box-sizing: border-box;
 }
 
-.page16 .table1, .page21 .table1 , .page26 .table1 , .page31 .table1 , .page35 .table1 , .page38 .table1 {
+.graybox1-174 {
     background: transparent url(\'./assets/page16-graybox.svg\') no-repeat;
     height: 174px;
 }
 
-.page17 .table1 , .page18 .table1 , .page22 .table1 , .page27 .table1 , .page28 .table1 , .page32 .table1{
+.graybox1-158{
     background: transparent url(\'./assets/page17-graybox1.svg\') no-repeat;
     height: 158px;
 }
 
-.page23 .table1 , .page28 .table12 , .page32 .table12 {
+.graybox1-213 {
     background: transparent url(\'./assets/page23-graybox1.svg\') no-repeat;
     height: 213px;
+}
+
+.graybox1-166 {
+    background: transparent url(\'./assets/graybox1-166.svg\') no-repeat;
+    height: 166px;
 }
 
 .report-box .table2 , .report-box .table22 {
@@ -502,20 +527,26 @@ margin-footer:0;
     color: #555A5C;
 }
 
-.page16 .table2, .page21 .table2 , .page26 .table2 , .page31 .table2 , .page35 .table2 , .page38 .table2 {
+.graybox2-174 {
     background: transparent url(\'./assets/page16-graybox2.svg\') no-repeat;
     height: 174px;
 }
 
-.page17 .table2, .page18 .table2 , .page22 .table2  , .page27 .table2 , .page28 .table2 , .page32 .table2{
+.graybox2-158 {
     background: transparent url(\'./assets/page17-graybox2.svg\') no-repeat;
     height: 158px;
 }
 
-.page23 .table2 , .page28 .table22 , .page32 .table22{
+.graybox2-213 {
     background: transparent url(\'./assets/page23-graybox2.svg\') no-repeat;
     height: 213px;
 }
+
+.graybox2-166 {
+    background: transparent url(\'./assets/graybox2-166.svg\') no-repeat;
+    height: 166px;
+}
+
 
 .report-box .table1 .desc .gene {
     font-size:14px;
@@ -523,7 +554,6 @@ margin-footer:0;
     background-position: right center;
     padding-right:10px;
     height: 32px;
-    
 }
 
 .report-box .table1 .desc .gene1 {
@@ -537,38 +567,22 @@ margin-footer:0;
     color: #fff;
 }
 
-.page16 .table1 .desc .gene3, .page21 .table1 .desc .gene3 , .page26 .table1 .desc .gene3 , .page31 .table1 .desc .gene3 , 
-.page35 .table1 .desc .gene3, .page38 .table1 .desc .gene3 {
+.gene180 {
     background: transparent url(\'./assets/page16-blue180.svg\') no-repeat;
     width: 180px;
-    color: #fff;
-    
+    color: #fff;   
 }
 
-.page17 .table1 .desc .gene3 , .page22 .table1 .desc .gene3 , .page28 .table12 .desc .gene3{
-    background: transparent url(\'./assets/page17-blue173.svg\') no-repeat;
-    width: 180px;
-    color: #fff;
-    font-size:14px;
-}
-
-.page17 .table1 .desc .gene32 , .page22 .table1 .desc .gene32 , .page27 .table1 .desc .gene32 , .page28 .table1 .desc .gene32, 
-.page32 .table1 .desc .gene32 {
+.gene190 {
     background: transparent url(\'./assets/page17-blue190.svg\') no-repeat;
-    width: 180px;
+    width: 190px;
     color: #fff;
     font-size:14px;
 }
 
-.page18 .table1 .desc .gene31 , .page32 .table12 .desc .gene3 {
-    background: transparent url(\'./assets/page16-blue180.svg\') no-repeat;
-    width: 180px;
-    color: #fff;
-}
-
-.page18 .table1 .desc .gene32 , .page23 .table1 .desc .gene32{
+.gene173 {
     background: transparent url(\'./assets/page17-blue173.svg\') no-repeat;
-    width: 180px;
+    width: 173px;
     color: #fff;
 }
 
@@ -617,10 +631,6 @@ margin-footer:0;
 }
 
 </style>
-
-
-
-
 
 <sethtmlpagefooter name="footerCover" value="on" />
     <div class="cover">
@@ -1022,7 +1032,7 @@ margin-footer:0;
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
 
-<div class="page page9" style="page-break-before:left;">
+<div class="page page9 bg-right" style="page-break-before:left;">
     <h2 class="gray" style="text-transform:uppercase;margin:0 0 25px 0;">ОБЩИЕ РЕКОМЕНДАЦИИ</h2>
     <div class="page9__content content-text" style="width:504px;color: #555A5C;">  
         <p style="font-family:gilroy-semibold;font-size:16px;">
@@ -1047,7 +1057,7 @@ margin-footer:0;
 </div>
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
-<div class="page page10" style="page-break-before:left;">
+<div class="page page10 bg-right" style="page-break-before:left;">
     <h2 class="gray" style="text-transform:uppercase;margin:0 0 30px 0;">ОБЩИЕ РЕКОМЕНДАЦИИ</h2>
     <div class="page10__content content-text" style="width:633px;color: #555A5C;">  
         <p style="font-family:gilroy-semibold;font-size:16px;">
@@ -1063,7 +1073,7 @@ margin-footer:0;
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
 
-<div class="page page11" style="page-break-before:left;">
+<div class="page page11 bg-right" style="page-break-before:left;">
     <h2 class="gray" style="text-transform:uppercase;margin:0 0 30px 0;">ОБЩИЕ РЕКОМЕНДАЦИИ</h2>
     <div class="page11__content content-text" style="width:485px;color: #555A5C;">  
         <p style="font-family:gilroy-semibold;font-size:16px;">
@@ -1296,7 +1306,7 @@ margin-footer:0;
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
 
-<div class="page page15 template1" style="page-break-before:left;">
+<div class="page page15 template1 bg-right" style="page-break-before:left;">
     <div class="page15__content content-text" style="color: #555A5C;">  
         <table  height="200" width="600" style="margin-left:-2px;">
             <tr>
@@ -1346,7 +1356,7 @@ margin-footer:0;
         <table height="175" style="border-collapse:collapse;" width="940px">
             <tr>
                 <td>
-                    <table class="table1" height="175" width="315" style="margin-left:-2px;">
+                    <table class="table1 graybox1-174" height="175" width="315" style="margin-left:-2px;">
                     <tr>
                         <td class="img" >
                             <img src=\'./assets/page18-dna.svg\' style="padding-right:15px;" height="70">
@@ -1362,7 +1372,7 @@ margin-footer:0;
                             </tr>
                             <tr><td height="10"></td></tr>
                             <tr>
-                                <td class="gene gene3" height="40">Полиморфизм rs1042714 </td>
+                                <td class="gene gene180" height="40">Полиморфизм rs1042714 </td>
                             </tr>
                         </table>
                         </td>
@@ -1372,7 +1382,7 @@ margin-footer:0;
 
                 <td width="5"></td>
                 <td>
-                    <table class="table2">
+                    <table class="table2 graybox2-174">
                         <tr>
                             <td style="padding-bottom:5px;">
                             Полиморфизм  гена ADRB2 (Бета-адренорецептор 2 типа). Расположен на длинном плече хромосомы 5 в цитосегменте 32.
@@ -1403,7 +1413,7 @@ margin-footer:0;
         <table height="158" style="border-collapse:collapse;" width="940px">
             <tr>
                 <td>
-                    <table class="table1" height="158" style="margin-left:-2px;">
+                    <table class="table1 graybox1-158" height="158" style="margin-left:-2px;">
                     <tr>
                         <td class="img" >
                             <img src=\'./assets/page18-dna.svg\' style="padding-right:15px;" height="70">
@@ -1419,7 +1429,7 @@ margin-footer:0;
                             </tr>
                             <tr><td height="10"></td></tr>
                             <tr>
-                                <td class="gene gene3" height="40" style="padding-right:15px;">Полиморфизм rs5082 </td>
+                                <td class="gene gene173" height="40" style="padding-right:15px;">Полиморфизм rs5082 </td>
                             </tr>
                         </table>
                         </td>
@@ -1429,7 +1439,7 @@ margin-footer:0;
 
                 <td width="5"></td>
                 <td>
-                <table class="table2" height="158" >
+                <table class="table2 graybox2-158" height="158" >
                 <tr>
                     <td style="padding-bottom:5px;">
                     Полиморфизм гена APOA2 (Аполипопротеин А2). Расположен на длинном плече хромосомы 1, в цитосегменте 23.3. 
@@ -1454,7 +1464,7 @@ margin-footer:0;
         <table  style="border-collapse:collapse;" width="940px">
             <tr>
                 <td>
-                    <table class="table1" style="margin-left:-2px;">
+                    <table class="table1 graybox1-158" style="margin-left:-2px;">
                     <tr>
                         <td class="img" >
                             <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
@@ -1470,7 +1480,7 @@ margin-footer:0;
                             </tr>
                             <tr><td height="10"></td></tr>
                             <tr>
-                                <td class="gene gene32" height="40" style="padding-right:15px;">Полиморфизм  rs1799883</td>
+                                <td class="gene gene190" height="40" style="padding-right:15px;">Полиморфизм  rs1799883</td>
                             </tr>
                         </table>
                         </td>
@@ -1480,7 +1490,7 @@ margin-footer:0;
 
                 <td width="5"></td>
                 <td>
-                    <table class="table2">
+                    <table class="table2 graybox2-158">
                         <tr>
                             <td style="padding-bottom:5px;">
                             Полиморфизм гена FABP2 (Белок, связывающий жирные кислоты в кишечнике, 2). Находится на длинном плече хромосомы 10, в цитосегменте 25.2 
@@ -1513,7 +1523,7 @@ margin-footer:0;
     <table height="158" style="border-collapse:collapse" width="940px">
         <tr>
             <td>
-                <table class="table1" height="158" style="margin-left:-2px;">
+                <table class="table1 graybox1-158" height="158" style="margin-left:-2px;">
                 <tr>
                     <td class="img" >
                         <img src=\'./assets/page18-dna.svg\' style="padding-right:10px;" height="70">
@@ -1529,7 +1539,7 @@ margin-footer:0;
                         </tr>
                         <tr><td height="10"></td></tr>
                         <tr>
-                            <td class="gene gene31" height="40" style="padding-right:10px;">Полиморфизм  rs9939609</td>
+                            <td class="gene gene180" height="40" style="padding-right:10px;">Полиморфизм  rs9939609</td>
                         </tr>
                     </table>
                     </td>
@@ -1539,7 +1549,7 @@ margin-footer:0;
 
             <td width="5"></td>
             <td>
-            <table class="table2" height="158" >
+            <table class="table2 graybox2-158" height="158" >
             <tr>
                 <td style="padding-bottom:5px;">
                 Полиморфизм гена FTO (альфа-кетоглутарат-зависимая диоксигеназа). Расположен на хромосоме 16 в цитогенетическом локусе 12.2
@@ -1564,7 +1574,7 @@ margin-footer:0;
     <table  style="border-collapse:collapse;" width="940px">
         <tr>
             <td>
-                <table class="table1" style="margin-left:-2px;">
+                <table class="table1 graybox1-158" style="margin-left:-2px;">
                 <tr>
                     <td class="img" >
                         <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
@@ -1581,7 +1591,7 @@ margin-footer:0;
                         </tr>
                         <tr><td height="10"></td></tr>
                         <tr>
-                            <td class="gene gene32" height="40" style="padding-right:20px;">Полиморфизм rs689</td>
+                            <td class="gene gene173" height="40" style="padding-right:20px;">Полиморфизм rs689</td>
                         </tr>
                     </table>
                     </td>
@@ -1591,7 +1601,7 @@ margin-footer:0;
 
             <td width="5"></td>
             <td>
-                <table class="table2">
+                <table class="table2 graybox2-158">
                     <tr>
                         <td style="padding-bottom:5px;">
                         Полиморфизм гена INS (Инсулин).  Расположен на коротком плече хромосомы 11 в цитогенетическом локусе 15.5.
@@ -1616,7 +1626,7 @@ margin-footer:0;
 </div>
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
-<div class="page page19" style="page-break-before:left;">
+<div class="page page19 bg-right" style="page-break-before:left;">
     <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
     <div class="page19__content content-text" style="width:507px; color: #555A5C;margin-bottom:38px; ">
         <p>
@@ -1654,7 +1664,7 @@ margin-footer:0;
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
 
-<div class="page page20 template1" style="page-break-before:left;">
+<div class="page page20 template1 bg-right" style="page-break-before:left;">
     <div class="page15__content content-text" style="color: #555A5C;">  
         <table  height="200" width="610" style="margin-left:-2px;">
             <tr>
@@ -1706,7 +1716,7 @@ margin-footer:0;
         <table height="175" style="border-collapse:collapse;" width="940px">
             <tr>
                 <td>
-                    <table class="table1" height="175" width="315" style="margin-left:-2px;">
+                    <table class="table1 graybox1-174" height="175" width="315" style="margin-left:-2px;">
                     <tr>
                         <td class="img" >
                             <img src=\'./assets/page18-dna.svg\' style="padding-right:15px;" height="70">
@@ -1723,7 +1733,7 @@ margin-footer:0;
                             </tr>
                             <tr><td height="10"></td></tr>
                             <tr>
-                                <td class="gene gene3" height="40" style="padding-right:20px">Полиморфизм rs5082</td>
+                                <td class="gene gene180" height="40" style="padding-right:20px">Полиморфизм rs5082</td>
                             </tr>
                         </table>
                         </td>
@@ -1733,7 +1743,7 @@ margin-footer:0;
 
                 <td width="5"></td>
                 <td>
-                    <table class="table2">
+                    <table class="table2 graybox2-174">
                         <tr>
                             <td style="padding-bottom:5px;">
                             Полиморфизм гена APOA2 (Аполипопротеин А2). Расположен на длинном плече хромосомы 1, в цитосегменте 23.3.
@@ -1763,7 +1773,7 @@ margin-footer:0;
         <table height="158" style="border-collapse:collapse;" width="940px">
             <tr>
                 <td>
-                    <table class="table1" height="158" style="margin-left:-2px;">
+                    <table class="table1 graybox1-158" height="158" style="margin-left:-2px;">
                     <tr>
                         <td class="img" >
                             <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
@@ -1780,7 +1790,7 @@ margin-footer:0;
                             </tr>
                             <tr><td height="10"></td></tr>
                             <tr>
-                                <td class="gene gene32" height="40" style="padding-right:15px;" >Полиморфизм rs1799883 </td>
+                                <td class="gene gene190" height="40" style="padding-right:15px;" >Полиморфизм rs1799883 </td>
                             </tr>
                         </table>
                         </td>
@@ -1790,7 +1800,7 @@ margin-footer:0;
 
                 <td width="5"></td>
                 <td>
-                <table class="table2" height="158" >
+                <table class="table2 graybox2-158" height="158" >
                 <tr>
                     <td style="padding-bottom:5px;">
                         Полиморфизм гена FABP2 (Белок, связывающий жирные кислоты в кишечнике, 2). Находится на длинном плече хромосомы 10, в цитосегменте 25.2
@@ -1815,7 +1825,7 @@ margin-footer:0;
         <table  style="border-collapse:collapse;" width="940px">
             <tr>
                 <td>
-                    <table class="table1" style="margin-left:-2px;">
+                    <table class="table1 graybox1-158" style="margin-left:-2px;">
                     <tr>
                         <td class="img" >
                             <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
@@ -1832,7 +1842,7 @@ margin-footer:0;
                             </tr>
                             <tr><td height="10"></td></tr>
                             <tr>
-                                <td class="gene gene32" height="40" style="padding-right:15px;">Полиморфизм rs9939609</td>
+                                <td class="gene gene190" height="40" style="padding-right:15px;">Полиморфизм rs9939609</td>
                             </tr>
                         </table>
                         </td>
@@ -1842,7 +1852,7 @@ margin-footer:0;
 
                 <td width="5"></td>
                 <td>
-                    <table class="table2">
+                    <table class="table2 graybox2-158">
                         <tr>
                             <td style="padding-bottom:5px;">
                             Полиморфизм rs9939609 гена FTO расположен на коротком плече хромосомы 3, в цитогенетическом локусе 25.2 
@@ -1873,7 +1883,7 @@ margin-footer:0;
         <table height="217" style="border-collapse:collapse;" width="940px">
             <tr>
                 <td>
-                    <table class="table1" height="217" width="315" style="margin-left:-2px;">
+                    <table class="table1 graybox1-213" height="217" width="315" style="margin-left:-2px;">
                     <tr>
                         <td class="img" height="217">
                             <img src=\'./assets/page18-dna.svg\' style="padding-right:15px;padding-top:25px;" height="70">
@@ -1882,7 +1892,7 @@ margin-footer:0;
                         <table width="195" style="padding-top:23px;">
                             <tr><td height="10"></td></tr>
                             <tr>
-                                <td class="gene gene32" height="40" style="padding-right:15px;">Гаплотипы гена APOE </td>
+                                <td class="gene gene173" height="40" style="padding-right:15px;">Гаплотипы гена APOE </td>
                             </tr>
                         </table>
                         </td>
@@ -1892,7 +1902,7 @@ margin-footer:0;
 
                 <td width="5"></td>
                 <td>
-                    <table class="table2">
+                    <table class="table2 graybox2-213">
                         <tr>
                             <td style="padding-bottom:5px;">
                             Гаплотипы гена APOE - это комбинация 2-х полиморфизмов- rs429358 и rs7412, расположенных в цитосегменте 19q13.32, генотипы которых которые обычно наследуются вместе. Основными гаплотипами являются 
@@ -1917,7 +1927,7 @@ margin-footer:0;
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
 
-<div class="page page24" style="page-break-before:left;">
+<div class="page page24 bg-right" style="page-break-before:left;">
     <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
     <div class="page24__content content-text" style="width:507px; color: #555A5C;margin-bottom:150px; ">
         <p>
@@ -1951,7 +1961,7 @@ margin-footer:0;
 </div>
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
-<div class="page page25 template1" style="page-break-before:left;">
+<div class="page page25 template1 bg-right" style="page-break-before:left;">
     <div class="page25__content content-text" style="color: #555A5C;">  
         <table  height="200" width="610" style="margin-left:-2px;">
             <tr>
@@ -1998,7 +2008,7 @@ margin-footer:0;
         <table height="175" style="border-collapse:collapse;" width="940px">
             <tr>
                 <td>
-                    <table class="table1" height="175" width="315" style="margin-left:-2px;">
+                    <table class="table1 graybox1-174" height="175" width="315" style="margin-left:-2px;">
                     <tr>
                         <td class="img" >
                             <img src=\'./assets/page18-dna.svg\' style="padding-right:15px;" height="70">
@@ -2015,7 +2025,7 @@ margin-footer:0;
                             </tr>
                             <tr><td height="10"></td></tr>
                             <tr>
-                                <td class="gene gene3" height="40" style="padding-right:10px">Полиморфизм rs1042714</td>
+                                <td class="gene gene180" height="40" style="padding-right:10px">Полиморфизм rs1042714</td>
                             </tr>
                         </table>
                         </td>
@@ -2025,7 +2035,7 @@ margin-footer:0;
 
                 <td width="5"></td>
                 <td>
-                    <table class="table2">
+                    <table class="table2 graybox2-174">
                         <tr>
                             <td style="padding-bottom:5px;">
                             Полиморфизм  гена ADRB2 (Бета-адренорецептор 2 типа). Расположен на длинном плече хромосомы 5 в цитосегменте 32. 
@@ -2054,7 +2064,7 @@ margin-footer:0;
         <table height="158" style="border-collapse:collapse;" width="940px">
             <tr>
                 <td>
-                    <table class="table1" height="158" style="margin-left:-2px;">
+                    <table class="table1 graybox1-158" height="158" style="margin-left:-2px;">
                     <tr>
                         <td class="img" >
                             <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
@@ -2071,7 +2081,7 @@ margin-footer:0;
                             </tr>
                             <tr><td height="10"></td></tr>
                             <tr>
-                                <td class="gene gene32" height="40" style="padding-right:15px;"> Полиморфизм rs1801282</td>
+                                <td class="gene gene190" height="40" style="padding-right:15px;"> Полиморфизм rs1801282</td>
                             </tr>
                         </table>
                         </td>
@@ -2081,7 +2091,7 @@ margin-footer:0;
 
                 <td width="5"></td>
                 <td>
-                <table class="table2" height="158" >
+                <table class="table2 graybox2-158" height="158" >
                 <tr>
                     <td style="padding-bottom:5px;">
                     Полиморфизм гена PPARG (Рецептор активатора пероксисом G). Расположен на коротком плече хромосомы 3 в цитогенетическом сегменте 25.2 
@@ -2104,7 +2114,7 @@ margin-footer:0;
         <table  style="border-collapse:collapse;" width="940px">
             <tr>
                 <td>
-                    <table class="table1" style="margin-left:-2px;">
+                    <table class="table1 graybox1-158" style="margin-left:-2px;">
                     <tr>
                         <td class="img" >
                             <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
@@ -2121,7 +2131,7 @@ margin-footer:0;
                             </tr>
                             <tr><td height="10"></td></tr>
                             <tr>
-                                <td class="gene gene32" height="40" style="padding-right:15px;">Полиморфизм rs7903146 </td>
+                                <td class="gene gene190" height="40" style="padding-right:15px;">Полиморфизм rs7903146 </td>
                             </tr>
                         </table>
                         </td>
@@ -2131,7 +2141,7 @@ margin-footer:0;
 
                 <td width="5"></td>
                 <td>
-                    <table class="table2">
+                    <table class="table2 graybox2-158">
                         <tr>
                             <td style="padding-bottom:5px;">
                             Полиморфизм гена TCF7L2 (фактор транскрипции 7). Расположен на длинном плече хромосомы 10 в сегменте 25.2
@@ -2161,7 +2171,7 @@ margin-footer:0;
         <table height="158" style="border-collapse:collapse;" width="940px">
             <tr>
                 <td>
-                    <table class="table1" height="158" style="margin-left:-2px;">
+                    <table class="table1 graybox1-158" height="158" style="margin-left:-2px;">
                     <tr>
                         <td class="img" >
                             <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
@@ -2178,7 +2188,7 @@ margin-footer:0;
                             </tr>
                             <tr><td height="10"></td></tr>
                             <tr>
-                                <td class="gene gene32" height="40" style="padding-right:15px;">Полиморфизм rs12255372</td>
+                                <td class="gene gene190" height="40" style="padding-right:15px;">Полиморфизм rs12255372</td>
                             </tr>
                         </table>
                         </td>
@@ -2188,7 +2198,7 @@ margin-footer:0;
 
                 <td width="5"></td>
                 <td>
-                <table class="table2" height="158" >
+                <table class="table2 graybox2-158" height="158" >
                 <tr>
                     <td style="padding-bottom:5px;">
                     Полиморфизм гена TCF7L2 (фактор транскрипции 7). Находится на длинном плече хромосомы 10, в цитогенентическом сегменте 25.2 
@@ -2211,15 +2221,15 @@ margin-footer:0;
         <table height="213" style="border-collapse:collapse;margin-bottom:0px;padding-bottom:0;" width="940px">
             <tr>
                 <td width="314">
-                    <table height="220" class="table12" style="margin-left:-2px;margin-bottom:0;padding-bottom:0;padding-top:25px;padding-right:0;" width="314">
+                    <table height="220" class="table12 graybox1-213" style="margin-left:-2px;margin-bottom:0;padding-bottom:0;padding-top:25px;padding-right:0;" width="314">
                     <tr>
-                        <td class="img" height="217" width="100">
-                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        <td class="img" height="217" width="80">
+                            <img src=\'./assets/page18-dna.svg\'  height="70">
                         </td>
                         <td class="desc" style="text-align:right;padding-top:10px;">
-                        <table width="160" height="217">
+                        <table width="195">
                             <tr>
-                                <td class="gene gene3" height="40" style="padding: 0 20px 5px 0;">Гаплотипы гена APOE</td>
+                                <td class="gene gene173" height="40" style="padding: 0 30px 5px 0;">Гаплотипы гена APOE</td>
                             </tr>
                         </table>
                         </td>
@@ -2229,7 +2239,7 @@ margin-footer:0;
 
                 <td width="12"></td>
                 <td>
-                    <table height="213" class="table22" >
+                    <table height="213" class="table22 graybox2-213" >
                         <tr>
                             <td style="padding-bottom:5px;">
                             Гаплотипы гена APOE - это комбинация 2-х полиморфизмов- rs429358 и rs7412, расположенных в цитосегменте 19q13.32, генотипы которых которые обычно наследуются вместе. Основными гаплотипами являются <span style="font-family:quivira">&#8455;</span>2, <span style="font-family:quivira">&#8455;</span>3 и <span style="font-family:quivira">&#8455;</span>4, встречающиеся в европейской популяции с частотами 6.65, 78.7 и 12.07% соответственно.
@@ -2255,7 +2265,7 @@ margin-footer:0;
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
 
-<div class="page page29" style="page-break-before:left;">
+<div class="page page29 bg-right" style="page-break-before:left;">
     <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
     <div class="page29__content content-text" style="width:558px; color: #555A5C;margin-bottom:150px; ">
         <p style="margin:0;">
@@ -2287,7 +2297,7 @@ margin-footer:0;
 </div>
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
-<div class="page page30 template1" style="page-break-before:left;">
+<div class="page page30 template1 bg-right" style="page-break-before:left;">
     <div class="page30__content content-text" style="color: #555A5C;">  
         <table  height="200" width="610" style="margin-left:-2px;">
             <tr>
@@ -2337,7 +2347,7 @@ margin-footer:0;
         <table height="175" style="border-collapse:collapse;" width="940px">
             <tr>
                 <td>
-                    <table class="table1" height="175" width="315" style="margin-left:-2px;">
+                    <table class="table1 graybox1-174" height="175" width="315" style="margin-left:-2px;">
                     <tr>
                         <td class="img" >
                             <img src=\'./assets/page18-dna.svg\' style="padding-right:15px;" height="70">
@@ -2354,7 +2364,7 @@ margin-footer:0;
                             </tr>
                             <tr><td height="10"></td></tr>
                             <tr>
-                                <td class="gene gene3" height="40" style="padding-right:20px">Полиморфизм rs5082</td>
+                                <td class="gene gene180" height="40" style="padding-right:20px">Полиморфизм rs5082</td>
                             </tr>
                         </table>
                         </td>
@@ -2364,7 +2374,7 @@ margin-footer:0;
 
                 <td width="5"></td>
                 <td>
-                    <table class="table2">
+                    <table class="table2 graybox2-174">
                         <tr>
                             <td style="padding-bottom:5px;">
                                 Полиморфизм гена APOA2 (Аполипопротеин А2). Расположен на длинном плече хромосомы 1, в цитосегменте 23.3.
@@ -2393,7 +2403,7 @@ margin-footer:0;
         <table height="158" style="border-collapse:collapse;" width="940px">
             <tr>
                 <td>
-                    <table class="table1" height="158" style="margin-left:-2px;">
+                    <table class="table1 graybox1-158" height="158" style="margin-left:-2px;">
                     <tr>
                         <td class="img" >
                             <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
@@ -2410,7 +2420,7 @@ margin-footer:0;
                             </tr>
                             <tr><td height="10"></td></tr>
                             <tr>
-                                <td class="gene gene32" height="40" style="padding-right:15px;">Полиморфизм rs1799883</td>
+                                <td class="gene gene190" height="40" style="padding-right:15px;">Полиморфизм rs1799883</td>
                             </tr>
                         </table>
                         </td>
@@ -2420,7 +2430,7 @@ margin-footer:0;
 
                 <td width="5"></td>
                 <td>
-                <table class="table2" height="158" >
+                <table class="table2 graybox2-158" height="158" >
                 <tr>
                     <td style="padding-bottom:5px;">
                     Полиморфизм гена FABP2 (Белок, связывающий жирные кислоты в кишечнике, 2). Находится на длинном плече хромосомы 10, в цитосегменте 25.2
@@ -2443,7 +2453,7 @@ margin-footer:0;
         <table height="213" style="border-collapse:collapse;margin-bottom:0px;padding-bottom:0;" width="940px">
             <tr>
                 <td width="314">
-                    <table height="220" class="table12" style="margin-left:-2px;margin-bottom:0;padding-bottom:0;padding-top:25px;" >
+                    <table height="220" class="table12 graybox1-213" style="margin-left:-2px;margin-bottom:0;padding-bottom:0;padding-top:25px;" >
                     <tr>
                         <td class="img" height="217" width="85">
                             <img src=\'./assets/page18-dna.svg\' style="" height="70">
@@ -2451,7 +2461,7 @@ margin-footer:0;
                         <td class="desc" style="text-align:right;padding-top:5px;">
                         <table width="185" height="217">
                             <tr>
-                                <td class="gene gene3" height="40" style="padding: 0 15px 5px 0;">Гаплотипы гена APOE</td>
+                                <td class="gene gene180" height="40" style="padding: 0 15px 5px 0;">Гаплотипы гена APOE</td>
                             </tr>
                         </table>
                         </td>
@@ -2461,7 +2471,7 @@ margin-footer:0;
 
                 <td width="12"></td>
                 <td>
-                    <table height="213" class="table22" >
+                    <table height="213" class="table22 graybox2-213" >
                         <tr>
                             <td style="padding-bottom:5px;">
                                 Гаплотипы гена APOE - это комбинация 2-х полиморфизмов- rs429358 и rs7412, расположенных в цитосегменте 19q13.32, генотипы которых которые обычно наследуются вместе. Основными гаплотипами являются <span style="font-family:quivira">&#8455;</span>2, <span style="font-family:quivira">&#8455;</span>3 и <span style="font-family:quivira">&#8455;</span>4, встречающиеся в европейской популяции с частотами 6.65, 78.7 и 12.07% соответственно.
@@ -2486,7 +2496,7 @@ margin-footer:0;
 </div>
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
-<div class="page page33" style="page-break-before:left;">
+<div class="page page33 bg-right" style="page-break-before:left;">
     <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
     <div class="page33s__content content-text" style="width:558px; color: #555A5C;margin-bottom:150px; ">
             <p>
@@ -2524,7 +2534,7 @@ margin-footer:0;
 </div>
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
-<div class="page page34 template1" style="page-break-before:left;">
+<div class="page page34 template1 bg-right" style="page-break-before:left;">
     <div class="page34__content content-text" style="color: #555A5C;">  
         <table  height="200" width="610" style="margin-left:-2px;">
             <tr>
@@ -2574,7 +2584,7 @@ margin-footer:0;
         <table height="175" style="border-collapse:collapse;" width="940px">
             <tr>
                 <td>
-                    <table class="table1" height="175" width="315" style="margin-left:-2px;">
+                    <table class="table1 graybox1-174" height="175" width="315" style="margin-left:-2px;">
                     <tr>
                         <td class="img" >
                             <img src=\'./assets/page18-dna.svg\' style="padding-right:15px;" height="70">
@@ -2591,7 +2601,7 @@ margin-footer:0;
                             </tr>
                             <tr><td height="10"></td></tr>
                             <tr>
-                                <td class="gene gene3" height="40" style="padding-right:10px">Полиморфизм rs1801282</td>
+                                <td class="gene gene180" height="40" style="padding-right:10px">Полиморфизм rs1801282</td>
                             </tr>
                         </table>
                         </td>
@@ -2601,7 +2611,7 @@ margin-footer:0;
 
                 <td width="5"></td>
                 <td>
-                    <table class="table2">
+                    <table class="table2 graybox2-174">
                         <tr>
                             <td style="padding-bottom:5px;">
                             Полиморфизм гена PPARG (Рецептор активатора пероксисом G). Расположен на коротком плече хромосомы 3 в цитогенетическом сегменте 25.2 
@@ -2624,7 +2634,7 @@ margin-footer:0;
 </div>
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
-<div class="page page36" style="page-break-before:left;">
+<div class="page page36 bg-right" style="page-break-before:left;">
     <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
     <div class="page36__content content-text" style="width:558px; color: #555A5C;margin-bottom:260px; ">
             <p style="margin:0;">
@@ -2656,7 +2666,7 @@ margin-footer:0;
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
 
-<div class="page page37 template1" style="page-break-before:left;">
+<div class="page page37 template1 bg-right" style="page-break-before:left;">
     <div class="page37__content content-text" style="color: #555A5C;">  
         <table  height="200" width="610" style="margin-left:-2px;">
             <tr>
@@ -2706,7 +2716,7 @@ margin-footer:0;
         <table height="158" style="border-collapse:collapse;" width="940px">
             <tr>
                 <td>
-                    <table class="table1" height="158" style="margin-left:-2px;">
+                    <table class="table1 graybox1-174" height="158" style="margin-left:-2px;">
                     <tr>
                         <td class="img" >
                             <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
@@ -2723,7 +2733,7 @@ margin-footer:0;
                             </tr>
                             <tr><td height="10"></td></tr>
                             <tr>
-                                <td class="gene gene3" height="40" style="padding-right:15px;">Полиморфизм rs1042714</td>
+                                <td class="gene gene180" height="40" style="padding-right:15px;">Полиморфизм rs1042714</td>
                             </tr>
                         </table>
                         </td>
@@ -2733,7 +2743,7 @@ margin-footer:0;
 
                 <td width="5"></td>
                 <td>
-                <table class="table2" height="158" >
+                <table class="table2 graybox2-174" height="158" >
                 <tr>
                     <td style="padding-bottom:5px;">
                     Полиморфизм  гена ADRB2 (Бета-адренорецептор 2 типа). Расположен на длинном плече хромосомы 5 в цитосегменте 32. 
@@ -2756,7 +2766,7 @@ margin-footer:0;
         <table  style="border-collapse:collapse;" width="940px">
             <tr>
                 <td>
-                    <table class="table1" style="margin-left:-2px;">
+                    <table class="table1 graybox1-174" style="margin-left:-2px;">
                     <tr>
                         <td class="img" >
                             <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
@@ -2774,7 +2784,7 @@ margin-footer:0;
                             </tr>
                             <tr><td height="10"></td></tr>
                             <tr>
-                                <td class="gene gene3" height="40" style="padding-right:15px;">Полиморфизм rs1801282</td>
+                                <td class="gene gene180" height="40" style="padding-right:15px;">Полиморфизм rs1801282</td>
                             </tr>
                         </table>
                         </td>
@@ -2784,7 +2794,7 @@ margin-footer:0;
 
                 <td width="5"></td>
                 <td>
-                    <table class="table2">
+                    <table class="table2 graybox2-174">
                         <tr>
                             <td style="padding-bottom:5px;">
                             Полиморфизм гена PPARG (Рецептор активатора пероксисом G). Расположен на коротком плече хромосомы 3 в цитогенетическом сегменте 25.2
@@ -2808,7 +2818,7 @@ margin-footer:0;
 </div>
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
-<div class="page page39" style="page-break-before:left;">
+<div class="page page39 bg-right" style="page-break-before:left;">
     <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
     <div class="page39__content content-text" style="width:558px; color: #555A5C;margin-bottom:260px; ">
             <p style="margin:0;">
@@ -2840,7 +2850,7 @@ margin-footer:0;
 </div>
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
-<div class="page page40 template1" style="page-break-before:left;">
+<div class="page page40 template1 bg-right" style="page-break-before:left;">
     <div class="page40__content content-text" style="color: #555A5C;">  
         <table  height="200" width="610" style="margin-left:-2px;">
             <tr>
@@ -2886,6 +2896,732 @@ margin-footer:0;
     </div>
 </div>
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+
+<div class="report-box page page41" style="page-break-before:left">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page41__content content-text">
+        <table height="158" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1 graybox1-174" height="158" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40">Ген APOA2 </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация G;G
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene180" height="40" style="padding-right:15px;">Полиморфизм rs5082</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                <table class="table2 graybox2-174" height="158" >
+                <tr>
+                    <td style="padding-bottom:5px;">
+                    Полиморфизм гена APOA2 (Аполипопротеин А2). Расположен на длинном плече хромосомы 1, в цитосегменте 23.3. 
+                    </td>
+                </tr>
+                <tr>
+                    <td height="80px">
+                        <span style="font-family:gilroy-semibold">Функция:</span> Основной белок липопротеинов высокой плотности. Полиморфизм изменяет промоторную последовательность гена APOA2, в результате чего носители экспрессируют меньше белкапродукта этого гена.
+                    </td>
+                </tr>
+            </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;margin-bottom:35px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        Ниже склонность к перееданию из-за запаздывающего чувства насыщения.
+        </div>
+        
+        <table  style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1 graybox1-174" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40" style="padding-right:20px;">Ген FTO</td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация T;A
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene180" height="40" style="padding-right:10px;">Полиморфизм rs9939609 </td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                    <table class="table2 graybox2-174">
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                            Полиморфизм rs9939609 гена FTO расположен на коротком плече хромосомы 3, в цитогенетическом локусе 25.2
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80px">
+                            <span style="font-family:gilroy-semibold">Функция:</span> Данный генетический локус связан с ожирением за счет нарушения пищевого поведения - избыточным потреблением калорий.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+            Данный генетический вариант связан со средней скорость наступления чувства насыщения во время еды.
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="page page42 bg-right" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
+    <div class="page42__content content-text" style="width:558px; color: #555A5C;margin-bottom:300px; ">
+            <p style="margin:0;">
+            По результатам генетического теста Ваш риск переедания из-за позднего наступления чувства насыщения во время еды ниже среднепопуляционного. Выявлен небольшой "защитный" эффект генов в отношении переедания.
+            </p>
+    </div>
+    <div class="content-text" style="width:560px;margin:0;">
+ 
+        <p class="risk-title1" style="margin:0;">Индивидуальная склонность</p>
+        <p class="risk-title2" style="padding-bottom:5px;">24 баллов - ниже среднего
+        </p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 110px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
+            </p>
+        </div>
+
+        <p class="risk-title1" style="">Среднепопуляционная склонность
+        </p>
+        <p class="risk-title2"  style="">37 баллов</p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 150px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);margin:0;">
+            </p>
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="page page43 template1 bg-right" style="page-break-before:left;">
+    <div class="page43__content content-text" style="color: #555A5C;">  
+        <table  height="200" width="610" style="margin-left:-2px;">
+            <tr>
+                <td class="item" >
+                    <img src=\'./assets/radio-yellow.svg\' width="16px" height="16px" style="padding-right:5px;margin-bottom:-2px;">
+
+                    <span style="color: #596363;font-size: 16px;line-height: 150%;">Средний риск</span>
+
+                    <p><img src=\'./assets/risk8.svg\' style="padding-top:14px;padding-bottom:10px;" height="70"></p>
+
+                    <p style="font-family:gilroy-semibold;height:43px;margin:0;padding:0;">
+                    Риск сахарного диабета<br>  2 типа
+                    </p>
+                </td>
+                <td width="20"></td>
+                <td style="vertical-align:top;">
+                    <table width="255" >
+                        <tr>
+                            <td style="font-size:16px;font-family:gilroy-semibold;padding-bottom:10px;">
+                            Риск сахарного диабета<br>  2 типа
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:14px;font-family:gilroy;line-height: 150%;">
+                            7% людей на земле страдают сахарным диабетом 2 типа, более 20% находятся в преддиабетическом состоянии. Генетика подскажет - есть ли риск?
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div style="width:544px;padding-top:10px;">
+            <p> 
+                Определение генных маркеров, влияющих на углеводный обмен, позволяет оценить индивидуальный риск повышения уровня глюкозы в крови и резистентности к инсулину (в норме инсулин снижает уровень глюкозы). Крайним проявлением инсулинорезистентности является сахарный диабет 2 типа. Известным средовым фактором, влияющим на риск СД 2 типа, является уровень потребления продуктов с высоким гликемическим индексом.
+            </p>
+            <p>
+                Пациентам, имеющим высокий счет генетического риска инсулинорезистентности, необходимо приложить усилия для ограничения потребления таких продуктов, что будет приводить к снижению риска сахарного диабета 2-ого типа и лучшему контролю массы тела.
+            </p>
+        </div>
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+
+<div class="report-box page page44" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page44__content content-text">
+        <table height="158" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1 graybox1-166" height="158" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40" style="padding-right:20px;">Ген FTO</td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация T;A
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene190" height="40" style="padding-right:15px;">Полиморфизм rs9939609</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                <table class="table2 graybox2-166" height="158" >
+                <tr>
+                    <td style="padding-bottom:5px;">
+                    Полиморфизм гена FTO (альфа-кетоглутарат-зависимая диоксигеназа). Расположен на хромосоме 16 в цитогенетическом локусе 12.2. 
+                    </td>
+                </tr>
+                <tr>
+                    <td height="80px">
+                        <span style="font-family:gilroy-semibold">Функция:</span> Данный генетический локус связан с ожирением за счет нарушения пищевого поведения - избыточным потреблением калорий. Этот ген оказывает последовательное и хорошо воспроизводимое влияние на риск ожирения. С каждым аллелем A связано увеличение веса на около 1,5 кг.
+                    </td>
+                </tr>
+            </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;margin-bottom:50px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+            Умеренный фактор риска сахарного диабета 2 типа.
+        </div>
+        
+        <table  style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1 graybox1-158" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40" style="padding-right:25px;">Ген INS </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация A;T
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene173" height="40" style="padding-right:20px;">Полиморфизм rs689</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                    <table class="table2 graybox2-158">
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                            Полиморфизм гена INS (Инсулин).  Расположен на коротком плече хромосомы 11 в цитогенетическом локусе 15.5.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80px">
+                            <span style="font-family:gilroy-semibold">Функция:</span> Инсулин – гормон, секретируемый b-клетками поджелудочной железы. Принимает участие в метаболизме глюкозы.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        Фактор риска инсулинорезистентности.<br> Выше потребность в ограничении углеводов с высоким гликемическим индексом.
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="report-box page page45" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page45__content content-text">
+        <table height="158" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1 graybox1-158" height="158" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40" style="padding-right:10px;">Ген TCF7L2</td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация C;C
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene190" height="40" style="padding-right:15px;">Полиморфизм rs7903146 </td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                <table class="table2 graybox2-158" height="158" >
+                <tr>
+                    <td style="padding-bottom:5px;">
+                    Полиморфизм гена TCF7L2 (фактор транскрипции 7). Расположен на длинном плече хромосомы 10 в сегменте 25.2.
+                    </td>
+                </tr>
+                <tr>
+                    <td height="80px">
+                        <span style="font-family:gilroy-semibold">Функция:</span> Регулирует метаболизм глюкозы в тканях поджелудочной железы и печени.
+                    </td>
+                </tr>
+            </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;margin-bottom:50px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        Норма. Не выявлено фактора, предрасполагающего к инсулинорезистентности и сахарному диабету 2 типа.
+        </div>
+        
+        <table  style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1 graybox1-158" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40" style="padding-right:10px;">Ген TCF7L2 </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация G;G
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene173" height="40" style="padding-right:5px;">Полиморфизм rs12255372</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                    <table class="table2 graybox2-158">
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                            Полиморфизм гена TCF7L2 (фактор транскрипции 7). Находится на длинном плече хромосомы 10, в цитогенентическом сегменте 25.2
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80px">
+                            <span style="font-family:gilroy-semibold">Функция:</span> Регулирует метаболизм глюкозы в тканях поджелудочной железы и печени.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+            Наиболее распространенный генотип. Не является фактором риска развития сахарного диабета 2 типа.</div>
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="page page46 bg-right" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
+    <div class="page46__content content-text" style="width:558px; color: #555A5C;margin-bottom:260px; ">
+            <p style="margin:0;">
+            Ваш  генетический риск развития сахарного диабета 2 типа является общепопуляционным. Это означает, что вероятность развития этого заболевания существует, но она такая же, как и у большинства других людей. Чтобы избежать заболевания следуйте рекомендациям врача, регулярно измеряйте уровень глюкозы в крови (особенно после 40 лет).
+            </p>
+    </div>
+    <div class="content-text" style="width:560px;margin:0;">
+ 
+        <p class="risk-title1" style="margin:0;">Индивидуальный риск</p>
+        <p class="risk-title2">65 баллов - средний
+        </p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 320px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
+            </p>
+        </div>
+
+        <p class="risk-title1" style="">Среднепопуляционный риск
+        </p>
+        <p class="risk-title2"  style="">64 балла</p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 310px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);margin:0;">
+            </p>
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="page page47 template1 bg-right" style="page-break-before:left">
+    <div class="page47__content content-text" style="color: #555A5C;">  
+        <table  height="200" width="610" style="margin-left:-2px;">
+            <tr>
+                <td class="item" >
+                    <img src=\'./assets/radio-red.svg\' width="16px" height="16px" style="padding-right:5px;margin-bottom:-2px;">
+
+                    <span style="color: #596363;font-size: 16px;line-height: 150%;">Высокий риск</span>
+
+                    <p><img src=\'./assets/risk9.svg\' style="padding-top:14px;padding-bottom:10px;" height="70"></p>
+
+                    <p style="font-family:gilroy-semibold;height:43px;margin:0;padding:0;">
+                        Риск патологического отложения жира вокруг внутренних органов
+                    </p>
+                </td>
+                <td width="20"></td>
+                <td style="vertical-align:top;">
+                    <table width="255" >
+                        <tr>
+                            <td style="font-size:16px;font-family:gilroy-semibold;padding-bottom:10px;">
+                            Риск патологического отложения жира вокруг внутренних органов
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:14px;font-family:gilroy;line-height: 150%;">
+                            Висцеральный жир — это один из видов жировых отложений, который скапливается не в подкожных слоях организма, а вокруг жизненно важных органов брюшной полости!
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div style="width:544px;padding-top:10px;">
+            <p> 
+            Жировая ткань представлена в разном количестве во всех тканях организма, а ее распределение зависит от множества факторов, включающих пол, возраст, уровень физической активности, характер питания и генетические особенности. Подкожный жир выглядит не очень хорошо, он может давать эффект «апельсиновой корки», однако он менее вреден для организма в отличие от жира, располагающегося вокруг внутренних органов. Жировые депо вокруг внутренних органов, нарушают их функционирование, уменьшают количество поступающей к органу крови и приводят к преждевременному изнашиванию и заболеваниям.
+            </p>
+        </div>
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+
+<div class="report-box page page48" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page48__content content-text">
+        <table height="158" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1 graybox1-166" height="158" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40" style="padding-right:10px;">Ген ADRB2</td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация C;A
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene190" height="40" style="padding-right:15px;">Полиморфизм rs1042714</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                <table class="table2 graybox2-166" height="158" >
+                <tr>
+                    <td style="padding-bottom:5px;">
+                    Полиморфизм  гена ADRB2 (Бета-адренорецептор 2 типа). Расположен на длинном плече хромосомы 5 в цитосегменте 32.
+                    </td>
+                </tr>
+                <tr>
+                    <td height="80px">
+                        <span style="font-family:gilroy-semibold">Функция:</span> Присутствует на мембранах клеток гладкой мускулатуры и в жировых клетках. Участвует в мобилизации жира из жировых клеток в ответ на гормоны (адреналин, норадреналин), стимулируют гликогенолиз в печени и выброс глюкозы в кровь для восполнения энергетических потребностей работы мышц.
+                    </td>
+                </tr>
+            </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;margin-bottom:50px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+            У носителей данного генотипа, выше вероятность  отложения жира вокруг внутренних органов.
+        </div>
+        
+        <table  style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1 graybox1-158" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40" style="padding-right:15px;">Ген APOA2  </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация G;G
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene173" height="40" style="padding-right:20px;">Полиморфизм rs5082 </td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                    <table class="table2 graybox2-158">
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                            Полиморфизм гена APOA2 (Аполипопротеин А2). Расположен на длинном плече хромосомы 1, в цитосегменте 23.3.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80px">
+                            <span style="font-family:gilroy-semibold">Функция:</span> Основной белок липопротеинов высокой плотности. Полиморфизм изменяет промоторную последовательность гена APOA2, в результате чего носители экспрессируют меньше белкапродукта этого гена.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        Ниже риск депонирования жиров вокруг внутренних органов.
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+
+<div class="report-box page page49" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page49__content content-text">
+        <table height="158" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1 graybox1-158" height="158" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40" style="padding-right:10px;">Ген FABP2</td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация T;C
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene190" height="40" style="padding-right:15px;">Полиморфизм rs1799883</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                <table class="table2 graybox2-158" height="158" >
+                <tr>
+                    <td style="padding-bottom:5px;">
+                        Полиморфизм гена FABP2 (Белок, связывающий жирные кислоты в кишечнике, 2). Находится на длинном плече хромосомы 10, в цитосегменте 25.2
+                    </td>
+                </tr>
+                <tr>
+                    <td height="80px">
+                        <span style="font-family:gilroy-semibold">Функция:</span> Переносчик жирных кислот в тонком кишечнике. Контролирует эффективность усвоения жиров, поступающих с пищей.
+                    </td>
+                </tr>
+            </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;margin-bottom:50px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        Умеренный фактора риска отложения жировых депо вокруг внутренних органов.
+        </div>
+        
+        <table  style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1 graybox1-158" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40" style="padding-right:10px;">Ген PPARG </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация C;G
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene173" height="40" style="padding-right:10px;">Полиморфизм rs1801282 </td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                    <table class="table2 graybox2-158">
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                            Полиморфизм гена PPARG (Рецептор активатора пероксисом G). Расположен на коротком плече хромосомы 3 в цитогенетическом сегменте 25.2
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80px">
+                            <span style="font-family:gilroy-semibold">Функция:</span> Регулирует накопление жирных кислот и метаболизм глюкозы.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        Умеренно выше риск отложения жира вокруг внутренних органов при избыточном весе.</div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+
+<div class="page page50 bg-right" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
+    <div class="page50__content content-text" style="width:558px; color: #555A5C;margin-bottom:260px; ">
+            <p style="margin:0;">
+            Ваш генетический риск ожирения внутренних органов выше, чем общепопуляционный риск. Это означает то, что ожирение может представлять для Вас не только эстетическую проблему, но и негативно влиять на работу внутренних органов.  Люди с таким генотипом должны уделять больше внимания контролю своего веса.
+            </p>
+    </div>
+    <div class="content-text" style="width:560px;margin:0;">
+
+        <p class="risk-title1" style="margin:0;">Индивидуальный риск</p>
+        <p class="risk-title2">75 баллов - выше среднего
+        </p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 350px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
+            </p>
+        </div>
+
+        <p class="risk-title1">Среднепопуляционный риск
+        </p>
+        <p class="risk-title2">48 баллов</p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 250px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);margin:0;">
+            </p>
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+
+
+
 
 
 

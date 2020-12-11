@@ -9,7 +9,7 @@ $html = '
 
 <htmlpagefooter name="footerCover">
     <table width="100%" cellpadding="0" height="60px" style="color:#fff;padding: 20px 0 26px 53px;vertical-align:midle;
-    border-top: 0.5px sopd #fff;">
+    border-top: 0.5px solid #fff;">
         <tr>
             <td><img src="./assets/logoWhite.svg" style="max-width:102px;height: 52px;"></td>
             <td style="font-family:gilroy; font-weight: 400; font-size: 11px; line-height: 16px;padding-left:25px;"> 
@@ -220,8 +220,6 @@ margin-footer:0;
 }
 
 .radius-box {
-    border-radius: 10px;
-    border: 1px sopd #E5ECF0;
     width: 994px;
     height: 334px;
     background: transparent url(\'./assets/page7-bg.png\') no-repeat;  
@@ -288,7 +286,7 @@ margin-footer:0;
 .rowValue td.col2 {
     width: 150px;
     text-align:left;
-    padding-left: 50px;
+    padding-left: 40px;
     font-family: gilroy-semibold;
     color: #555A5C;
 }
@@ -406,6 +404,23 @@ margin-footer:0;
 .page47 {
     background: transparent url(\'./assets/page47.png\') no-repeat;
 }
+
+.page51 {
+    background: transparent url(\'./assets/page51.png\') no-repeat;
+}
+
+.page54 {
+    background: transparent url(\'./assets/page54.png\') no-repeat;
+}
+
+.page53 {
+    background: transparent url(\'./assets/page53.png\') no-repeat;
+}
+
+.page57 {
+    background: transparent url(\'./assets/page57.png\') no-repeat;
+}
+
 
 .page9 p , .page10 p , .page11 p {
     margin: 0 0 23px 0;
@@ -631,6 +646,10 @@ margin-footer:0;
 }
 
 </style>
+
+
+
+
 
 <sethtmlpagefooter name="footerCover" value="on" />
     <div class="cover">
@@ -972,8 +991,8 @@ margin-footer:0;
                     <img src=\'./assets/radio-red.svg\' width="12px" height="12px" style="padding-right:5px;margin-bottom:-2px;">
                     <span style="color: #596363;font-family: gilroy;">Высокая выраженность</span>
                     </p>
-                    <p><img src=\'./assets/risk6.svg\' style="padding-top:14px;padding-bottom:7px;" height="50"></p>
-                    <p style="color:#555A5C;width:150px;font-family: gilroy-semibold;">Выраженность<br> ЙО-ЙО эффекта</p>
+                    <p><img src=\'./assets/risk6.svg\' style="margin-left:-18px;padding-top:10px;" height="65"></p>
+                    <p style="color:#555A5C;width:150px;font-family: gilroy-semibold;margin-top:-5px;">Выраженность<br> ЙО-ЙО эффекта</p>
                 </td>
                 <td  class="gray">
                     <p>
@@ -1267,10 +1286,10 @@ margin-footer:0;
         <table width="100%" height="500" >
             <tr class="row1">
                 <td class="title" width="120"></td>
-                <td class="title">Четверг</td>
-                <td class="title">Пятница</td>
-                <td class="title">Суббота</td>
-                <td class="title">Воскресенье</td>
+                <td class="title" width="220">Четверг</td>
+                <td class="title" width="220">Пятница</td>
+                <td class="title" width="220">Суббота</td>
+                <td class="title" width="220">Воскресенье</td>
             </tr>
             <tr class="row">
                 <td class="title" width="120">Завтрак</td>
@@ -1628,7 +1647,7 @@ margin-footer:0;
 
 <div class="page page19 bg-right" style="page-break-before:left;">
     <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
-    <div class="page19__content content-text" style="width:507px; color: #555A5C;margin-bottom:38px; ">
+    <div class="page19__content content-text" style="width:507px; color: #555A5C;height:350px; ">
         <p>
         Ваш генетически обусловленный риск избыточной массы тела, рассчитанный на основе исследованных полиморфизмов, выше чем общепопуляционный риск. Это означает, что при одинаковом режиме питания, физических нагрузках и других обстоятельствах ваш вес вероятно будет выше, чем у других людей.
         </p>
@@ -1644,7 +1663,7 @@ margin-footer:0;
         <p class="risk-title1" style="margin:0;">Индивидуальный риск</p>
         <p class="risk-title2" style="">90 баллов - выше среднего</p>
 
-        <div>
+        <div style="margin-bottom:30px;">
             <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 435px;width:20px;height:26px;">
             <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
             </p>
@@ -1919,7 +1938,7 @@ margin-footer:0;
             </tr>
         </table>
 
-        <div style="font-family:gilroy;margin-top:5px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        <div style="font-family:gilroy;font-size:13px;line-height:19px;color: #555A5C;width:940px">
         Обнаружен гаплотип APO-E3/E3. Частота в европейской популяции,%: 78.7761
         </div>
     </div>
@@ -1929,7 +1948,7 @@ margin-footer:0;
 
 <div class="page page24 bg-right" style="page-break-before:left;">
     <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
-    <div class="page24__content content-text" style="width:507px; color: #555A5C;margin-bottom:150px; ">
+    <div class="page24__content content-text" style="width:507px; color: #555A5C;height:350px; ">
         <p>
             Данный генотип не предрасполагает к более выраженному эффекту низкожировой диеты. Данный гаплотип не отличается чувствительностью к потреблению жиров, но любому человеку будет полезно снизить потребление насыщенных жирных кислот для поддержания здоровья и долголетия.
         </p>
@@ -1942,7 +1961,7 @@ margin-footer:0;
         <p class="risk-title1" style="margin:0;">Индивидуальная эффективность</p>
         <p class="risk-title2" style="">54 баллов - выше среднего</p>
 
-        <div>
+        <div style="margin-bottom:30px;">
             <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 260px;width:20px;height:26px;">
             <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
             </p>
@@ -2256,7 +2275,7 @@ margin-footer:0;
         </table>
 
         <div style="padding:0;margin:0;font-family:gilroy;font-size:13px;line-height:19px;color: #555A5C;width:940px">
-        <p style="margin: 5px 0 5px 0">Обнаружен гаплотип APO-E3/E3. Частота в европейской популяции,%: 78.7761 <br></p>
+        <p style="margin: 0 0 5px 0">Обнаружен гаплотип APO-E3/E3. Частота в европейской популяции,%: 78.7761 <br></p>
         <p style="margin:0;">Нейтральный вариант.</p>
         </div>
 
@@ -2267,7 +2286,7 @@ margin-footer:0;
 
 <div class="page page29 bg-right" style="page-break-before:left;">
     <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
-    <div class="page29__content content-text" style="width:558px; color: #555A5C;margin-bottom:150px; ">
+    <div class="page29__content content-text" style="width:558px; color: #555A5C;height:350px; ">
         <p style="margin:0;">
             При рационе, содержащем большое количество углеводов, Вы быстрее набираете вес, чем люди с другими генотипами. При появлении необходимости снизить массу тела, эффективность низкоуглеводной диеты повышенная. Для снижения массы тела рекомендовано сократить калории за счет ограничения потребление продуктов, богатых «быстрыми углеводами» (гликемический индекс выше 70). Организм взрослого человека усваивает не больше 4-6 г сахара в час, избыток будет запасен в виде жировых отложений. Дефицит магния усугубляет нарушение углеводного обмена, обсудите с Вашим врачом необходимость дополнительного приема препаратов магния.
         </p>
@@ -2277,7 +2296,7 @@ margin-footer:0;
         <p class="risk-title1" style="margin:0;">Индивидуальный риск</p>
         <p class="risk-title2" style="">69 баллов - выше среднего</p>
 
-        <div>
+        <div style="margin-bottom:30px;">
             <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 350px;width:20px;height:26px;">
             <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
             </p>
@@ -2341,7 +2360,7 @@ margin-footer:0;
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
 
-<div class="report-box page page31" style="">
+<div class="report-box page page31" style="page-break-before:left;">
     <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
     <div class="page26__content content-text">
         <table height="175" style="border-collapse:collapse;" width="940px">
@@ -2498,7 +2517,7 @@ margin-footer:0;
 
 <div class="page page33 bg-right" style="page-break-before:left;">
     <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
-    <div class="page33s__content content-text" style="width:558px; color: #555A5C;margin-bottom:150px; ">
+    <div class="page33__content content-text" style="width:558px; color: #555A5C;height:350px; ">
             <p>
                 Наиболее распространенный генотип. Не влияет на необходимость ограничивать потребление насыщенных жирных кислот.
             </p>
@@ -2515,7 +2534,7 @@ margin-footer:0;
         <p class="risk-title2" style="">45 баллов - ниже среднего
         </p>
 
-        <div>
+        <div style="margin-bottom:30px;">
             <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 220px;width:20px;height:26px;">
             <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
             </p>
@@ -2636,7 +2655,7 @@ margin-footer:0;
 
 <div class="page page36 bg-right" style="page-break-before:left;">
     <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
-    <div class="page36__content content-text" style="width:558px; color: #555A5C;margin-bottom:260px; ">
+    <div class="page36__content content-text" style="width:558px; color: #555A5C;height:350px; ">
             <p style="margin:0;">
                 При Вашем генотипе ниже индивидуальная потребность в разгрузочных днях, предпочтительнее равномерный тип питания. Старайтесь придерживаться равномерного типа питания с умеренным ограничением калорий при необходимости снизить массу тела. Для Вас менее физиологичны разгрузочные дни.     
             </p>
@@ -2647,7 +2666,7 @@ margin-footer:0;
         <p class="risk-title2" style="margin-bottom:20px;">0 баллов - ниже среднего
         </p>
 
-        <div>
+        <div style="margin-bottom:30px;">
             <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
             </p>
         </div>
@@ -2820,7 +2839,7 @@ margin-footer:0;
 
 <div class="page page39 bg-right" style="page-break-before:left;">
     <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
-    <div class="page39__content content-text" style="width:558px; color: #555A5C;margin-bottom:260px; ">
+    <div class="page39__content content-text" style="width:558px; color: #555A5C;height:350px; ">
             <p style="margin:0;">
             Ваш генотип предполагает повышенную вероятность проявления ЙО-ЙО эффекта по сравнению со среднепопуляционной вероятностью. При повышенном риске возвращения избыточной массы тела, рекомендуется постоянный контроль калорийности потребляемых продуктов после завершения успешной диеты, равномерная физическая нагрузка.
             </p>
@@ -2831,7 +2850,7 @@ margin-footer:0;
         <p class="risk-title2" style="">100 баллов - выше среднего
         </p>
 
-        <div>
+        <div style="margin-bottom:30px;">
             <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 532px;width:20px;height:26px;">
             <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
             </p>
@@ -3006,8 +3025,8 @@ margin-footer:0;
 <sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
 <div class="page page42 bg-right" style="page-break-before:left;">
-    <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
-    <div class="page42__content content-text" style="width:558px; color: #555A5C;margin-bottom:300px; ">
+    <h2 class="gray" style="margin-bottom:20px;text-transform:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
+    <div class="page42__content content-text" style="width:558px; color: #555A5C;height:350px; ">
             <p style="margin:0;">
             По результатам генетического теста Ваш риск переедания из-за позднего наступления чувства насыщения во время еды ниже среднепопуляционного. Выявлен небольшой "защитный" эффект генов в отношении переедания.
             </p>
@@ -3018,7 +3037,7 @@ margin-footer:0;
         <p class="risk-title2" style="padding-bottom:5px;">24 баллов - ниже среднего
         </p>
 
-        <div>
+        <div style="margin-bottom:30px;">
             <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 110px;width:20px;height:26px;">
             <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
             </p>
@@ -3297,7 +3316,7 @@ margin-footer:0;
 
 <div class="page page46 bg-right" style="page-break-before:left;">
     <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
-    <div class="page46__content content-text" style="width:558px; color: #555A5C;margin-bottom:260px; ">
+    <div class="page46__content content-text" style="width:558px; color: #555A5C;height:350px; ">
             <p style="margin:0;">
             Ваш  генетический риск развития сахарного диабета 2 типа является общепопуляционным. Это означает, что вероятность развития этого заболевания существует, но она такая же, как и у большинства других людей. Чтобы избежать заболевания следуйте рекомендациям врача, регулярно измеряйте уровень глюкозы в крови (особенно после 40 лет).
             </p>
@@ -3308,7 +3327,7 @@ margin-footer:0;
         <p class="risk-title2">65 баллов - средний
         </p>
 
-        <div>
+        <div style="margin-bottom:30px;">
             <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 320px;width:20px;height:26px;">
             <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
             </p>
@@ -3588,7 +3607,7 @@ margin-footer:0;
 
 <div class="page page50 bg-right" style="page-break-before:left;">
     <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
-    <div class="page50__content content-text" style="width:558px; color: #555A5C;margin-bottom:260px; ">
+    <div class="page50__content content-text" style="width:558px; color: #555A5C;height:350px; ">
             <p style="margin:0;">
             Ваш генетический риск ожирения внутренних органов выше, чем общепопуляционный риск. Это означает то, что ожирение может представлять для Вас не только эстетическую проблему, но и негативно влиять на работу внутренних органов.  Люди с таким генотипом должны уделять больше внимания контролю своего веса.
             </p>
@@ -3599,7 +3618,7 @@ margin-footer:0;
         <p class="risk-title2">75 баллов - выше среднего
         </p>
 
-        <div>
+        <div style="margin-bottom:30px;">
             <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 350px;width:20px;height:26px;">
             <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
             </p>
@@ -3621,11 +3640,434 @@ margin-footer:0;
 
 
 
+<div class="page page51 template1 bg-right" style="page-break-before:left;">
+    <div class="page51__content content-text" style="color: #555A5C;">  
+        <table  height="200" width="610" style="margin-left:-2px;">
+            <tr>
+                <td class="item" >
+                    <img src=\'./assets/radio-red.svg\' width="16px" height="16px" style="padding-right:5px;margin-bottom:-2px;">
+
+                    <span style="color: #596363;font-size: 16px;line-height: 150%;">Высокая потребность</span>
+
+                    <p><img src=\'./assets/risk10.svg\' style="padding-top:14px;padding-bottom:10px;" height="70"></p>
+
+                    <p style="font-family:gilroy-semibold;height:43px;margin:0;padding:0;">
+                    Потребность в мононенасыщенных жирных кислотах
+                    </p>
+                </td>
+                <td width="20"></td>
+                <td style="vertical-align:top;">
+                    <table width="255" >
+                        <tr>
+                            <td style="font-size:16px;font-family:gilroy-semibold;padding-bottom:10px;">
+                            Потребность в мононенасыщенных жирных кислотах
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:14px;font-family:gilroy;line-height: 150%;">
+                                Насыщенные жирные кислоты участвуют в терморегуляции организма, улучшают состояние волос и кожи.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div style="width:579px;padding-top:10px;">
+            <p> 
+            Мононенасыщенные жиры представляют собой жирные кислоты, в структуре молекул которых не более одной двойной углеродной связи. Самым известным представителем мононенасыщенных жирных кислот (МНЖК) является олеиновая кислота (Омега-9), которая в большом количестве содержится в оливковом масле. Также МНЖК содержатся в арахисовом масле, масле из фундука, многих орехах, авокадо. Мононенасыщенные жиры имеют одну важную отличительную особенность. При комнатной температуре они имеют жидкую консистенцию, но при понижении температуры густеют. Недостаток МНЖК в организме приводит к ухудшению мозговой деятельности, нарушению работы сердечно-сосудистой системы. Недостаток потребления мононенасыщенных жиров может влиять на снижение веса и здоровье в целом у лиц с определенным вариантом гена PPARG. 
+            </p>
+            <p>
+            Потребность в мононенасыщенных жирах дополнительно возрастает: при проживании в холодном регионе; для тех, кто активно занимается спортом, выполняет тяжёлую работу на производстве; для детей в период активного развития; при нарушении работы сердечно-сосудистой системы; при нахождении в экологически неблагоприятных районах (профилактика онкозаболеваний); для больных сахарным диабетом 2 типа.
+            </p>
+        </div>
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="report-box page page52" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page52__content content-text">
+        <table height="174" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1 graybox1-174" height="174" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40" style="padding-right:10px;">Ген APOA1</td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация C;C
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene180" height="40" style="padding-right:25px;">Полиморфизм rs670</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                <table class="table2 graybox2-174" height="174" style="padding:0;">
+                <tr>
+                    <td style="padding-top:23px;padding-left:29px;" height="174">
+                    Полиморфизм в гене APOAI, члене генного кластера APOAI / CIII / IV / V на хромосоме 11q23-24, кодирует основной белковый компонент липопротеинов высокой плотности, который связан с уровнями липидов в сыворотке. 
+                    </td>
+                </tr>
+            </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;margin-bottom:50px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        При данном генотипе, потребление мононенасыщенных жирных кисло не отражается на повышении ЛПНП. Нейтральный вариант.
+        </div>
+        
+        <table  style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1 graybox1-174" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40" style="padding-right:10px;">Ген PPARG </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация C;G
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene173" height="40" style="padding-right:10px;">Полиморфизм rs1801282</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                    <table class="table2 graybox2-174">
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                            Полиморфизм гена PPARG (Рецептор активатора пероксисом G). Расположен на коротком плече хромосомы 3 в цитогенетическом сегменте 25.2
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80px">
+                            <span style="font-family:gilroy-semibold">Функция:</span> Регулирует накопление жирных кислот и метаболизм глюкозы.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        Люди  с аллелем G имеют меньший риск  развития ожирения , если их потребление  мононенасыщеных жиров больше, чем полиненасыщенных.
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+<div class="page page53 bg-right" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
+    <div class="page53__content content-text" style="width:558px; color: #555A5C;height:350px; ">
+            <p style="margin:0;">
+                По результатам генетического теста, необходимость увеличить содержание мононенасыщенных жирных кислот в рационе повышенная. Повышение содержания мононенасыщенных жиров в рационе у людей с таким генотипом способствует нормализации веса и жирового обмена.
+            </p>
+            <p>
+                При Вашем генотипе необходимо следить за достаточным потреблением мононенасыщенных жирных кислот. Список рекомендованных продуктов, содержащих мононенасышенные жирные кислоты приведен в приложении к заключению.     
+            </p>
+    </div>
+    <div class="content-text" style="width:560px;margin:0;">
+
+        <p class="risk-title1" style="margin:0;">Индивидуальный риск</p>
+        <p class="risk-title2">100 баллов - выше среднего
+        </p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 532px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
+            </p>
+        </div>
+
+        <p class="risk-title1">Среднепопуляционный риск
+        </p>
+        <p class="risk-title2">64 баллов</p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 350px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);margin:0;">
+            </p>
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+
+<div class="page page54 template1 bg-right" style="page-break-before:left">
+    <div class="page54__content content-text" style="color: #555A5C;">  
+        <table  height="200" width="610" style="margin-left:-2px;">
+            <tr>
+                <td class="item" >
+                    <img src=\'./assets/radio-red.svg\' width="16px" height="16px" style="padding-right:5px;margin-bottom:-2px;">
+
+                    <span style="color: #596363;font-size: 16px;line-height: 150%;">Высокая потребность</span>
+
+                    <p><img src=\'./assets/risk11.svg\' style="padding-top:14px;padding-bottom:10px;" height="70"></p>
+
+                    <p style="font-family:gilroy-semibold;height:43px;margin:0;padding:0;">
+                    Потребность в Омега-3 жирных кислотах
+
+                    </p>
+                </td>
+                <td width="20"></td>
+                <td style="vertical-align:top;">
+                    <table width="255" >
+                        <tr>
+                            <td style="font-size:16px;font-family:gilroy-semibold;padding-bottom:10px;">
+                            Потребность в Омега-3 жирных кислотах
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:14px;font-family:gilroy;line-height: 150%;">
+                            Помните? Пейте, дети, рыбий жир - будете здоровы. Омега-3 нужна не только детям!
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div style="width:579px;padding-top:10px;">
+            <p> 
+            Полиненасыщенные жиры делятся на Омега-6 и Омега-3. Современная диета включает большое количество Омега-6 и недостаточное Омега-3. Оптимальное соотношение 4:1, а современный человек получает из диеты примерно 20:1, то есть в пять раз меньше Омега-3 жирных кислот, что вызывает дисбаланс в обменных процессах, и при определенном генотипе может привести к заболеваниям.
+            </p>
+            <p>
+            При современном типе питания и образе жизни, в целом, всем полезно увеличивать в диете долю Омега-3 по отношению к Омега-6, принимать специальные добавки с Омега-3 (рыбий жир, льняное масло), но при наличии определенных генетических маркеров это особенно критично для профилактики сердечно-сосудистых, онкологических заболеваний и метаболического синдрома.
+            </p>
+        </div>
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
 
 
+<div class="report-box page page55" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page55__content content-text">
+        <table height="175" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1 graybox1-174" height="175" width="315" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:15px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40">Ген APOA2</td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация G;G
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene180" height="40" style="padding-right:20px">Полиморфизм rs5082</td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                    <table class="table2 graybox2-174">
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                            Полиморфизм гена APOA2 (Аполипопротеин А2). Расположен на длинном плече хромосомы 1, в цитосегменте 23.3.
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80">
+                            <span style="font-family:gilroy-semibold">Функция:</span> Основной белок липопротеинов высокой плотности. Полиморфизм изменяет промоторную последовательность гена APOA2, в результате чего носители экспрессируют меньше белкапродукта этого гена.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:16px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+            Выше потребность в Омега-3 жирных кислотах. Ассоциировано с инсулинорезистентностью и более высоким уровнем воспалительных метаболитов в плазме (СРБ, IL-6). Употребление Омега- 3 может уменьшить воспалительные эффекты, связанные с генотипом GG.
+        </div>
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
 
+<div class="report-box page page56" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:27px;text-transform:uppercase;">Отчет по результатам исследования</h2>
+    <div class="page56__content content-text">
+        <table height="174" style="border-collapse:collapse;" width="940px">
+            <tr>
+                <td>
+                    <table class="table1 graybox1-174" height="174" style="margin-left:-2px;">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;">
+                        <table width="195">
+                            <tr>
+                                <td class="gene gene1" height="40" style="padding-right:20px;">Ген FTO</td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene2" height="40" style="padding-right:15px;">Ваша мутация T;A
+                                </td>
+                            </tr>
+                            <tr><td height="10"></td></tr>
+                            <tr>
+                                <td class="gene gene180" height="40" style="padding-right:10px;">Полиморфизм rs9939609 </td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="5"></td>
+                <td>
+                    <table class="table2 graybox2-174">
+                    <tr>
+                        <td>
+                        Полиморфизм гена FTO (альфа-кетоглутарат-зависимая диоксигеназа). Расположен на хромосоме 16 в цитогенетическом локусе 12.2.
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="80">
+                            <span style="font-family:gilroy-semibold">Функция:</span>  Данный генетический локус связан с ожирением за счет нарушения пищевого поведения - избыточным потреблением калорий. Этот ген оказывает последовательное и хорошо воспроизводимое влияние на риск ожирения. С каждым аллелем A связано увеличение веса на около 1,5 кг.
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;margin-bottom:20px;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        Выше потребность в Омега-3 жирных кислотах.
+
+        </div>
+        
+        <table style="border-collapse:collapse;margin:0;padding:0;" width="940px" height="213">
+            <tr>
+                <td  width="314">
+                    <table class="table1 graybox1-213" style="margin: 0 0 0 -2px;padding-top:0;padding-bottom:0;" height="213">
+                    <tr>
+                        <td class="img" >
+                            <img src=\'./assets/page18-dna.svg\' style="padding-right:5px;padding-top:20px;" height="70">
+                        </td>
+                        <td class="desc" style="text-align:right;padding-top:20px;" height="213">
+                            <table width="195" style="">
+                                <tr>
+                                    <td class="gene gene180" height="40" style="padding-right:15px;">Гаплотипы гена APOE</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+
+                <td width="12" ></td>
+                <td >
+                    <table class="table2 graybox2-213" height="213" style="margin:0;">
+                        <tr>
+                            <td style="padding-bottom:5px;">
+                            Гаплотипы гена APOE - это комбинация 2-х полиморфизмов- rs429358 и rs7412, расположенных в цитосегменте 19q13.32, генотипы которых которые обычно наследуются вместе. Основными гаплотипами являются <span style="font-family:quivira">&#8455;</span>2, <span style="font-family:quivira">&#8455;</span>3 и <span style="font-family:quivira">&#8455;</span>4, встречающиеся в европейской популяции с частотами 6.65, 78.7 и 12.07% соответственно.
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="80px" >
+                            <span style="font-family:gilroy-semibold">Функция:</span> Ген ApoE кодирует белок аполипопротеин Е (АпоЕ). Белок АпоЕ - фермент, играющий важную роль в метаболизме липидов. Он связан с предрасположенностью к гиперлипопротеинемии (ГЛП), атеросклерозу, гиперхолестеринемии, болезни Альцгеймера и пр.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="font-family:gilroy;margin-top:10px;padding:0;font-size:13px;line-height:19px;color: #555A5C;width:940px">
+        <p style="margin: 0 0 10px 0;">
+        Обнаружен гаплотип APO-E3/E3. Частота в европейской популяции,%: 78.7761  
+        </p>
+        <p style="margin: 0;">
+        Наиболее частый генотип. Норма. Потребность в Омега-3 жирных кислотах средняя.        
+        </p>
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
+
+
+
+<div class="page page57 bg-right" style="page-break-before:left;">
+    <h2 class="gray" style="margin-bottom:20px;text-transforme:uppercase;">ОТЧЕТ ПО РЕЗУЛЬТАТАМ ИССЛЕДОВАНИЯ</h2>
+    <div class="page57__content content-text" style="width:558px; color: #555A5C;height:350px;">
+            <p style="margin:0;">
+                Людям с таким генотипом необходимо повышать содержание Омега-3 жирных кислот в рационе. Употреблять Омега-3 жирные кислоты в повышенном количестве (с коэффициентом 1,3 по сравнению с нормами потребления, соответствующими вашему полу, возрасту и образу жизни). Возможно применение биологически активных добавок или продуктов, содержащих такие вещества (см. приложение).
+            </p>
+    </div>
+    <div class="content-text" style="width:560px;margin:0;">
+
+        <p class="risk-title1" style="margin:0;">Индивидуальная потребность
+        </p>
+        <p class="risk-title2">74 балла - выше среднего
+        </p>
+
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 400px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; margin:0; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);">
+            </p>
+        </div>
+
+        <p class="risk-title1">Среднепопуляционная потребность
+        </p>
+        <p class="risk-title2">63 баллa</p>
+        <div>
+            <img src=\'./assets/flag.svg\' style="margin-bottom:-10px;margin-left: 300px;width:20px;height:26px;">
+            <p style="width:552px;height:10px; background: linear-gradient(top right, rgb(223, 9, 22,0.5) 0%, #029DE1 100%);margin:0;">
+            </p>
+        </div>
+
+    </div>
+</div>
+<sethtmlpagefooter name="MyFooter2-gray-border" value="on"/>
 
 
 
